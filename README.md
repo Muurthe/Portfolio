@@ -20,7 +20,7 @@ Op deze website kan je:
 
 ***
 
-## Authors
+## Author
 - Mirthe Verdurmen
   - GitHub: [Muurthe](https://github.com/Muurthe)
 
