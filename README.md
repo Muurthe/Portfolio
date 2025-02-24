@@ -23,10 +23,3 @@ Op deze website kan je:
 ## Author
 - Mirthe Verdurmen
   - GitHub: [Muurthe](https://github.com/Muurthe)
-
-***
-## Uitleg branches/pull/push
-Git
-Voor elke feature die je gaat maken, een nieuwe branch. Je maakt dus niet direct veranderingen/pushen op de main branch. Altijd een andere
-
-
