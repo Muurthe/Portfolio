@@ -7,7 +7,7 @@ Dit is mijn portfolio website van semester 2. Ik heb deze website gemaakt om mij
 ***
 
 ## Functionaliteiten
-+ (lijstje belangrijke funcites)
++ (lijstje belangrijke functies)
 
 ***
 
