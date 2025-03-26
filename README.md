@@ -1,7 +1,7 @@
 # Portfolio Website
 
 Dit is mijn portfolio website van semester 2 
-Op deze website kan je:
+#Op deze website kan je:
 - over mij lezen
 - mijn projecten bekijken
 - behaalde leeruitkomsten zien
