@@ -18,6 +18,3 @@ Dit is mijn portfolio website van semester 2. Ik heb deze website gemaakt om mij
 
 ***
 
-## Autheur
-- Mirthe Verdurmen
-  - GitHub: [Muurthe](https://github.com/Muurthe)
