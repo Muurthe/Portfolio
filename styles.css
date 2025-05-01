@@ -1,0 +1,112 @@
+/* algemene styling van website (taakbalk, navigatie, fonts  */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* fonts importeren */
+@font-face {
+    font-family:'tanfont';
+    src: url('fonts/tan-pearl.otf') format('opentype');
+}
+
+@font-face {
+    font-family:'jungefont';
+    src: url('fonts/Junge-Regular.ttf') format('opentype');
+}
+
+body {
+    margin: 0;
+    font-family: 'jungefont';
+    background-color: #f7f0eb;
+    color: #2d2d2d;
+}
+  
+header {
+    background-color: #a4b892;
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+    color: white;
+    font-weight: normal;
+    font-family: 'tanfont';
+}
+
+.voornaam {
+    font-family: 'tanfont';
+}
+
+.achternaam {
+    font-family: 'jungefont';
+  }
+  
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #7d9267;
+    margin: 0;
+    padding: 0;
+}
+  
+nav li {
+    margin: 0 2rem;
+}
+  
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+footer {
+    background-color: #a4b892;
+    color: white;
+    padding: 2rem;
+    font-family: 'jungefont';
+}
+  
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    text-align: left;
+}
+  
+.footer-column h4 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+  
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.footer-column li {
+    margin-bottom: 0.4rem;
+    font-size: 0.95rem;
+}
+  
+.footer-note {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+  

@@ -1,0 +1,66 @@
+.leeruikomstenpagina {
+    max-width: 800px;
+    margin: 4rem auto 2rem;
+    padding-left: 3rem;
+    text-align: left;
+    padding-top: 2.3rem;
+    padding-bottom: 6.0rem;
+}
+  
+.leeruikomstenpagina ul { 
+    text-decoration: none;
+    list-style: none;
+}
+  
+.leeruikomstenpagina li {
+    margin-bottom: 0.8rem;
+}
+  
+.leeruikomstenpagina h2 {
+    margin-bottom: 2rem;
+    font-size: 1.7rem;
+    color: #4D7149;
+    font-family: 'tanfont';
+    text-decoration: underline;
+    text-underline-offset: 0.5em;
+}
+
+main a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.leeruikomstenpagina li:nth-child(1) {
+    background-color: #88946E;
+    box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .leeruikomstenpagina li:nth-child(2) {
+    background-color: #B8C3A1;
+    box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .leeruikomstenpagina li:nth-child(3) {
+    background-color: white;
+    box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .leeruikomstenpagina li:nth-child(4) {
+    background-color: #F6E5DB;
+    box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .leeruikomstenpagina li:nth-child(5) {
+    background-color: #F5D9CB;
+    box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .leeruikomstenpagina li {
+    padding: 1.5rem;
+    padding-left: 2.2rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    color: #2d2d2d;
+  }
+  
