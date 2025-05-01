@@ -17,3 +17,4 @@ Dit is mijn portfolio website van semester 2. Ik heb deze website gemaakt om mij
 - **JavaScript:** Interactiviteit (zoals de animaties)
 
 ***
+
