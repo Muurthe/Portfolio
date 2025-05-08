@@ -19,14 +19,14 @@
 body {
     margin: 0;
     font-family: 'jungefont';
-    background-color: #f7f0eb;
-    color: #2d2d2d;
+    background-color: #F9F0E9;
+    font-weight: normal;
 }
   
 header {
     background-color: #a4b892;
-    padding: 2rem;
     text-align: center;
+    padding: 40px 60px 30px;
     position: relative;
 }
 
@@ -36,16 +36,29 @@ header h1 {
     color: white;
     font-weight: normal;
     font-family: 'tanfont';
+    
 }
 
 .voornaam {
     font-family: 'tanfont';
+    font-size: 3rem;
 }
 
 .achternaam {
     font-family: 'jungefont';
-  }
-  
+    font-size: 3.6rem;
+}
+
+nav {
+    position: absolute;
+    bottom: -25px; /* Hierdoor hangt het menu deels over de header */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #7d9267;
+    padding: 10px 30px;
+    border-radius: 3px;
+}
+
 nav ul {
     list-style: none;
     display: flex;
@@ -105,7 +118,7 @@ footer {
 }
 
 footer a {
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 1.2rem;
 }
