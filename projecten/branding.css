@@ -1,30 +1,183 @@
 .branding {
-    background-color: #F2E3D8 ;
-    margin: 5rem 10rem;
-    border-radius: 10px;
-    padding: 3rem;
+    background-color: #F2E3D8;
+    margin: 4rem 9rem;
+    border-radius: 8px;
+    padding: 2.5rem;
+
+
 }
 
 .head {
     background-color: #F9F0E9;
-    /* margin: 3rem; */
     padding: 2rem;
-    border-radius: 10px;
+    border-radius: 8px;
+    padding-bottom: 1.0rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 2rem;
+}
+
+.head h1 {
+    font-family: 'tanfont';
+    font-weight: normal;
+    color: #88946E;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    max-width: 35rem;
+}
+
+.grid h3 {
+    color: #88946E;
+    font-weight: normal;
 }
 
 .wieboris {
     margin-top: 2rem;
     margin: 1rem;
+    display: flex;
+    margin-right: 0;
+    gap: 2rem;
 }
 
-.wieboris button, .doelgroep button
-{
+.wieboris p {
+    max-width: 30rem;
+}
+
+.afbeelding img {
+    margin-left: 1rem;
+    width: 14rem;
+    height: 14rem;
+}
+
+.wieboris button {
     margin-top: 1rem;
-    width: 80px;
+    width: 150px;
     height: 30px;
-    background-color: green;
+    background-color: #88946E;
+    border: none;
+    border-radius: 6px;
+    color: white
 }
 
 .doelgroep {
     margin: 1rem;
+    margin-top: 2rem;
+}
+
+.headtekst p {
+    max-width: 35rem;
+    margin-bottom: 1rem;
+}
+
+.doelenresultaten {
+    display: flex;
+    gap: 2rem;
+
+}
+
+.doelen {
+    max-width: 20rem;
+    font-size: 0.8rem;
+}
+
+.doelenresultaten h4 {
+    font-weight: normal;
+    color: #88946E;
+    font-size: 1rem;
+}
+
+.doelen ul {
+    margin-left: 1rem;
+}
+
+.design {
+    margin-top: 2rem;
+
+}
+
+.design h5 {
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.container {
+    display: flex;
+    gap: 7rem;
+}
+
+.titellogo h5{
+    font-family: 'tanfont';
+    font-family: 0.8rem;
+    margin-top: 1.2rem;
+}
+
+
+/* carousel */
+.carousel {
+  position: relative;
+  width: 270px;
+  margin: 0;
+  background-color: #f4e6db;
+}
+
+/* Wrapper zodat overflow niet op de knoppen zit */
+.slides-wrapper {
+  overflow: hidden;
+  width: 270px;
+  margin: 0 auto;
+}
+
+.slides {
+  display: flex;
+  width: calc(270px * 7);
+  transition: transform 0.4s ease-in-out;
+}
+
+.slide {
+  width: 250px;
+  height: 250px;
+  flex-shrink: 0;
+  margin: 0 10px;
+  background-color: white;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.slide img {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+}
+
+/* Pijlen absoluut naast de afbeelding */
+.button {
+  position: absolute;
+  top: 50%;
+  /* transform: translateY(-50%); */
+  background-color: #8b956d;
+  border: none;
+  color: white;
+  font-size: 24px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.button.prev {
+  left: -40px;
+}
+
+.button.next {
+  right: -40px;
+}
+
+.button:hover {
+  background-color: #6d7a52;
 }
