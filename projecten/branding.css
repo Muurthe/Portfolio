@@ -1,0 +1,30 @@
+.branding {
+    background-color: #F2E3D8 ;
+    margin: 5rem 10rem;
+    border-radius: 10px;
+    padding: 3rem;
+}
+
+.head {
+    background-color: #F9F0E9;
+    /* margin: 3rem; */
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.wieboris {
+    margin-top: 2rem;
+    margin: 1rem;
+}
+
+.wieboris button, .doelgroep button
+{
+    margin-top: 1rem;
+    width: 80px;
+    height: 30px;
+    background-color: green;
+}
+
+.doelgroep {
+    margin: 1rem;
+}
