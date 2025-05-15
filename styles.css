@@ -31,6 +31,7 @@ header {
     text-align: center;
     padding: 40px 60px 30px;
     position: relative;
+    margin-bottom: 4rem;
 }
 
 header h1 {
@@ -128,7 +129,22 @@ footer a {
 
 h3 {
     font-weight: normal;
-    color: #858B6F;
+    /* color: #858B6F; */
     margin-bottom: 0.4rem;
+    font-family: 'tanfont';
+}
+
+.bijlagebutton {
+    margin-top: 1rem;
+    width: 150px;
+    height: 30px;
+    background-color: #88946E;
+    border: none;
+    border-radius: 6px;
+    color: white
+}
+
+.bijlagebutton:hover {
+    background-color: #B8C3A1;
 }
   
