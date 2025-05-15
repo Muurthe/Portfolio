@@ -278,7 +278,7 @@
     margin: 0 10px;
     background-color: white;
     border-radius: 12px;
-    
+
     justify-content: center;
     align-items: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -382,7 +382,7 @@
     padding: 1rem;
 }
 
-.slide4 h6{
+.slide4 h6 {
     margin-top: 0.2rem;
     font-size: 1.7rem;
     font-weight: normal;
@@ -423,7 +423,7 @@
     margin-top: 2rem;
 }
 
-.Eindfeedback h3{
+.Eindfeedback h3 {
     margin-top: 2rem;
 }
 
