@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio website </title>
     <link rel="stylesheet" href="/styles.css" />
-    <link rel="stylesheet" href="leeruitkomst.css" />
-    
+    <link rel="stylesheet" href="LO-algemeen.css" />
+    <link rel="stylesheet" href="interactive.css" />
+    <script src="LO-algemeen.js" defer></script>
+    <script src="/ux.js" defer></script>
+    <script src="interactive.js" defer></script>
+
+
 </head>
+
 <body>
     <header>
         <h1>
@@ -21,38 +28,241 @@
             </ul>
         </nav>
     </header>
-    <main class="Interactive">
+    <main class="interactive">
         <div class="head">
-            <h1>Naam</h1>
+            <h1>1. Interactive media products</h1>
             <div class="omschrijving">
-                <p>BorisS ch midts df hjsk jdfhs djk fh asjkd hfjks dhfsdjkfh jsdkfhsd jkhfsdjkhf sdjkfhsd jkfhsdkfj
-                    hsdjkfhsd</p>
+                <p>“You orient in the relevant tech, media and design landscape and create interactive media products
+                    that you have tested with users and stakeholders”</p>
             </div>
             <div class="Leernav">
-                <a onclick="showContent('bewijs1')">Bewijs 12323</a>
-                <a onclick="showContent('bewijs2')">Bewijs 22323</a>
-                <a onclick="showContent('bewijs3')">Bewijs 32323</a>
+                <a onclick="showContent('bewijs1')">Branding project</a>
+                <a onclick="showContent('bewijs2')">UX project Cardan </a>
+                <a onclick="showContent('bewijs3')">Development project</a>
+                <a onclick="showContent('bewijs4')">Portfolio</a>
+
             </div>
         </div>
 
         <div class="content">
             <div id="bewijs1">
-                
+                <h2>Branding project</h2>
+                <p>Tijdens het branding project ben ik als eerste aan de slag gegaan met het onderzoek doen naar Boris
+                    en de doelgroep zelf. Deze staan in de onderstaande knoppen </p>
+                <div class="buttonsbranding">
+                    <button class="bijlagebutton">Onderzoek Boris</button>
+                    <button class="bijlagebutton">Onderzoek Doelgroep</button>
+                </div>
+                <p>We hebben voor dit project een brandguide gemaakt. Deze staat hieronder.</p>
+
+                <div class="container3">
+                    <h6>Brandguide</h6>
+                    <div class="carousel3">
+                        <div class="slideswrapper3">
+                            <div class="slides3">
+                                <div class="slide3"><img src="/images/brandguide/brand1.png" /></div>
+                                <div class="slide3"><img src="/images/brandguide/brand2.png" /></div>
+                                <div class="slide3"><img src="/images/brandguide/brand3.png" /></div>
+                                <div class="slide3"><img src="/images/brandguide/brand4.png" /></div>
+                                <div class="slide3"><img src="/images/brandguide/brand5.png" /></div>
+                                <div class="slide3"><img src="/images/brandguide/brand6.png" /></div>
+                                <div class="slide3"><img src="/images/brandguide/brand7.png" /></div>
+                                <div class="slide3"><img src="/images/brandguide/brand8.png" /></div>
+                                <div class="slide3"><img src="/images/brandguide/brand9.png" /></div>
+                                <div class="slide3"><img src="/images/brandguide/brand10.png" /></div>
+                                <div class="slide3"><img src="/images/brandguide/brand11.png" /></div>
+                                <div class="slide3"><img src="/images/brandguide/brand12.png" /></div>
+                                <div class="slide3"><img src="/images/brandguide/brand13.png" /></div>
+                            </div>
+                            <button class="button3 prev">❮</button>
+                            <button class="button3 next">❯</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="brandtest">
+                    <h6>Brandtest</h6>
+                    <p>We hebben een brandtest uitgevoerd op de brandguide. Met als doel om te kijken of Boris hierin
+                        overkomt hoe wij bedacht dat hij overkomt. De test zijn hieronder te vinden. De resultaten
+                        hierop zijn dat het doel is behaald en Boris goed overkwam.</p>
+                    <div class="container4">
+                        <div class="carousel4">
+                            <div class="slideswrapper4">
+                                <div class="slides4">
+                                    <div class="slide4">
+                                        <h6>1.Keyword matching</h6>
+                                        <img src="/images/uxtesten/uxtest1.png" />
+                                    </div>
+                                    <div class="slide4">
+                                        <h6>2. Sematic differential</h6>
+                                        <img src="/images/uxtesten/uxtest2.png" />
+                                    </div>
+                                    <div class="slide4">
+                                        <h6>3. Comparison test</h6>
+                                        <img src="/images/uxtesten/uxtest3.png" />
+                                    </div>
+                                </div>
+                                <button class="button4 prev">❮</button>
+                                <button class="button4 next">❯</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="conclusie">
+                    <h6>Conclusie (op basis van mijn test en die van anderen): </h6>
+                    <ul>
+                        <li>De stylescape wordt als kalm en rustgevend ervaren. </li>
+                        <li>De albumcover straalt energie uit, maar minder het gevoel van ‘het onbekende’. </li>
+                        <li>Van de posters is de eerste vooral mysterieus, terwijl de tweede als energiek werd ervaren. </li>
+                    </ul>
+                    <p>We nemen deze inzichten mee in de verdere ontwikkeling van de brandguide. <br>De kernwaarden die altijd terug moeten komen zijn: energie en/of het onbekende. </p>
+                </div>
+
+
             </div>
 
             <div id="bewijs2" class="hidden">
-                <h2>Bewijs 2 content</h2>
-                <p>Inhoud voor bewijs 2 komt hier.</p>
+                <h2>UX project Cardan</h2>
+
+                <p>Voor het UX project begon ik met het doen van een onderzoek naar 2 beperkingen</p>
+                <p>Dit onderzoek is beschikbaar in een document. Klik op de onderstaande knop om het te bekijken.</p>
+                <button class="bijlagebutton">Onderzoek</button>
+
+                <h6>Prototype Cognitief</h6>
+                <div class="prototypecog">
+                    <p>Mijn concept start met een visueel overweldigende pagina vol animaties en felle kleuren. Dit
+                        bootst de ervaring na van iemand met ADHD die wordt geconfronteerd met teveel prikkels. Onder
+                        aan de pagina staat een onopvallende knop die leidt naar een tweede, rustige pagina met de
+                        vraag: "Was de vorige pagina overweldigend?" Vervolgens wordt visueel uitgelegd hoe zelfs mooie
+                        animaties voor afleiding kunnen zorgen, en waarom het belangrijk is om bewust om te gaan met
+                        animaties in ontwerp.</p>
+                    <img src="/images/cogprototype.png" alt="afbeelding van prototype cognitief">
+                </div>
+
+                <div class="prototype2">
+                    <div class="tekst">
+                        <h4>Prototype Motorisch</h4>
+                        <p>De gebruiker doorloopt een mini-game waarin alleen genavigeerd kan worden met tab, shift-tab
+                            en
+                            enter. In de eerste versie zijn elementen slecht benoemd of visueel onduidelijk. Dit
+                            frustreert
+                            de gebruiker, die zich niet kan oriënteren. Daarna volgt een verbeterde versie met
+                            duidelijke
+                            focusindicatie en logische volgorde. De test maakt bewust wat het belang is van
+                            toegankelijke
+                            navigatie.
+                            Hieronder staat mijn process.  </p>
+                    </div>
+
+
+                    <div class="carouselcontainer">
+                        <div class="carousel5">
+                            <div class="slideswrapper5">
+                                <div class="slides5">
+                                    <div class="slide5"><img src="/images/prototypemotor/prototype1.png" /></div>
+                                    <div class="slide5"><img src="/images/prototypemotor/prototype2.png" /></div>
+                                    <div class="slide5"><img src="/images/prototypemotor/prototype3.png" /></div>
+                                    <div class="slide5"><img src="/images/prototypemotor/prototype4.png" /></div>
+                                    <div class="slide5"><img src="/images/prototypemotor/prototype5.png" /></div>
+                                    <div class="slide5"><img src="/images/prototypemotor/prototype6.png" /></div>
+                                    <div class="slide5"><img src="/images/prototypemotor/prototype7.png" /></div>
+
+
+                                </div>
+                                <button class="button5 prev">❮</button>
+                                <button class="button5 next">❯</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="feedbacksprint1">
+                    <h6>Feedback sprint 1 Carolina:</h6>
+                    <ul>
+                        <li>De huisjes-opdracht werkte goed, maar zou realistischer zijn als simulatie</li>
+                        <li>Het typen onder tijdsdruk gaf goed de beperking weer</li>
+                        <li>Het idee om gebruikers gefrustreerd te maken en vervolgens empathie op te roepen, werd als
+                            sterk ervaren</li>
+                        <li>Carolina vond het leuk dat het verwerkt was als game</li>
+                    </ul>
+                </div>
+                <div class="makennieuwprototype">
+                    <h6>Maken van een nieuw prototype</h6>
+                    <p>Naar aanleiding van de feedback bedachten we een herkenbare setting: een website voor een
+                        fictieve luchtvaartmaatschappij "Cardan Airlines", waarbij bewust fouten zijn ingebouwd (slechte
+                        kleurencontrasten, veel afleiding, enz.). Mijn taak was de detailpagina van een vakantie te
+                        ontwerpen.</p>
+                    <a href="https://www.figma.com/design/z9t00KCiJ4liuyigEDC6VE/UX-Project?node-id=52-243&t=Leek1UdlnqBt1rCG-1 "
+                        target="_blank">De link naar de Figma met de iteraties</a>
+                </div>
+                <div>
+                    <h6>Maken van een nieuw prototype</h6>
+                    <p>De Figma-prototype is getest via het Think Aloud-protocol met Noortje. Zij gaf aan dat sommige
+                        uitleg te lang was, waardoor ze instructies miste en niet verder kon. Dit wordt meegenomen in
+                        verdere iteraties.</p>
+
+                </div>
+                <div class="eindfeedback">
+                    <h6>Eindfeedback Carolina</h6>
+                    <p>Carolina vond het concept sterk, maar we hadden onszelf onnodig veel opgelegd. Het verwerken van
+                        alle beperkingen was niet nodig geweest. Ook gaf ze aan dat de instructies korter en duidelijker
+                        konden.</p>
+                </div>
+
+
             </div>
 
             <div id="bewijs3" class="hidden">
-                <h2>Bewijs 3 content</h2>
-                <p>Inhoud voor bewijs 3 komt hier.</p>
+                <h2>Development project</h2>
+                <p>In het vervolg op de eerdere opdracht, het ontwerpen van een interactieve UX-ervaring rond de vijf
+                    fysieke stations van Cardan. Onze opdracht is het daadwerkelijk bouwen van deze digitale
+                    webapplicatie. We vertalen het gemaakte UX-ontwerp naar werkende code.</p>
+                <div class="orig">
+                    <h6>Orginele designs van Jarvins groep</h6>
+                    <img src="/images/dev/dev1.png" />
+                </div>
+                <div class="feedbackux1">
+                    <h6>Feedback van Carolina UX-project</h6>
+                    <p>Op auditieve na vond ze het heel leuk dat er een duidelijke opdracht is die de gebruiker moet
+                        doen. Bij auditieve zit er geen opdracht aan vast wat het minder sterk maakt en de gebruiker
+                        niet goed weet wat ze hier moeten doen. Daarnaast zitten de twee stukjes, opdracht en uitleg
+                        heel dicht op elkaar gepropt. Hiermee kan je goed variëren en kijken of het wel echt nodig is.
+                        Ook zou een soort van welkom pagina en eindpagina goed zijn om te hebben. Dan komt de gebruiker
+                        niet gelijk in de ervaring van een beperking.</p>
+                </div>
+                <div class="verandering">
+                    <h6>Veranderingen na feedback</h6>
+                    <img src="/images/dev/dev2.png" />
+                    <p>Toevoeging van een welkomstscherm en afsluitend scherm. Visuele en inhoudelijke herindeling van
+                        uitleg en opdracht.</p>
+                </div>
+                <div class="uxtest">
+                    <h6>UX test</h6>
+                    <p>Nadat we al enkele pagina’s hadden gecodeerd en een klein prototype hadden ontwikkeld, vonden we
+                        het een goed moment om een UX-test uit te voeren. Het volledige rapport is hieronder te vinden:
+                    </p>
+                    <button class="bijlagebutton">Rapport</button>
+                </div>
+                <div class="Opleverversie">
+                    <h6>Eindversie</h6>
+                    <p>Na het doorvoeren van de aanpassingen hebben we een voorlopige eindversie ontwikkeld, die we
+                        vervolgens online hebben gezet op een server.</p>
+                    <p class="p">Link naar Live website: (nog niet beschikbaar)</p>
+
+                </div>
             </div>
+            <div id="bewijs4">
+                <h2>Portfolio</h2>
+                <p>Dit onderdeel is nog in ontwikkeling. Mijn portfolio-website is nog niet volledig afgerond en er is nog geen usertest uitgevoerd. In de komende periode wil ik de site verder afwerken en testen met gebruikers om feedback te verzamelen en verbeteringen door te voeren.</p>
+
+            </div>
+
         </div>
 
-        
+
     </main>
-    
+
 </body>
+
 </html>
