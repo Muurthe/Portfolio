@@ -1,12 +1,12 @@
 /* fonts importeren */
 @font-face {
     font-family:'tanfont';
-    src: url('fonts/tan-pearl.otf') format('opentype');
+    src: url('tan-pearl.otf') format('opentype');
 }
 
 @font-face {
     font-family:'jungefont';
-    src: url('fonts/Junge-Regular.ttf') format('opentype');
+    src: url('Junge-Regular.ttf') format('opentype');
 }
 
 /* algemene styling van website (taakbalk, navigatie, fonts  */
