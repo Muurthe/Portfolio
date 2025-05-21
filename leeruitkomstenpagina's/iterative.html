@@ -7,6 +7,7 @@
     <title>Portfolio website </title>
     <link rel="stylesheet" href="/styles.css" />
     <link rel="stylesheet" href="LO-algemeen.css" />
+    <link rel="stylesheet" href="iterative.css" />
     <script src="LO-algemeen.js" defer></script>
 
 </head>
@@ -34,20 +35,14 @@
                 <a onclick="showContent('bewijs1')">Logo's Boris</a>
                 <a onclick="showContent('bewijs2')">Project UX</a>
                 <a onclick="showContent('bewijs3')">Portfolio</a>
-                <a onclick="showContent('bewijs3')">Development UX</a>
+                <a onclick="showContent('bewijs4')">Development UX</a>
             </div>
         </div>
 
         <div class="content">
-            <div id="bewijs1">
+            <div id="bewijs1" class="hidden">
                 <h2>UX Cardan airlines figma</h2>
                 <p>Beschrijving<br>Figma link</p>
-                <h3>UX test 1: Think-Aloud protocol:</h3>
-                <p>Doelen:<br>- Is de functie duidelijk<br>- Loopt het proces soepel</p>
-                <p>Resultaten:<br>-</p>
-                <h3>UX test 2:</h3>
-                <p>Doelen:<br>- Is de functie duidelijk<br>- Loopt het proces soepel</p>
-                <p>Resultaten:<br>-</p>
             </div>
 
             <div id="bewijs2" class="hidden">
@@ -59,6 +54,53 @@
                 <h2>Bewijs 3 content</h2>
                 <p>Inhoud voor bewijs 3 komt hier.</p>
             </div>
+            <div id="bewijs4">
+                <h2>Development project</h2>
+                <p>In het vervolg op de eerdere opdracht, het ontwerpen van een interactieve UX-ervaring rond de vijf
+                    fysieke stations van Cardan. Onze opdracht is het daadwerkelijk bouwen van deze digitale
+                    webapplicatie. We vertalen het gemaakte UX-ontwerp naar werkende code.</p>
+                <div class="orig">
+                    <h6>Orginele designs van Jarvins groep</h6>
+                    <img src="/images/dev/dev1.png" />
+                </div>
+                <div class="feedbackux1">
+                    <h6>Feedback van Carolina UX-project</h6>
+                    <p>Op auditieve na vond ze het heel leuk dat er een duidelijke opdracht is die de gebruiker moet
+                        doen. Bij auditieve zit er geen opdracht aan vast wat het minder sterk maakt en de gebruiker
+                        niet goed weet wat ze hier moeten doen. Daarnaast zitten de twee stukjes, opdracht en uitleg
+                        heel dicht op elkaar gepropt. Hiermee kan je goed variëren en kijken of het wel echt nodig is.
+                        Ook zou een soort van welkom pagina en eindpagina goed zijn om te hebben. Dan komt de gebruiker
+                        niet gelijk in de ervaring van een beperking.</p>
+                </div>
+                <div class="verandering">
+                    <h6>Veranderingen na feedback</h6>
+                    <img src="/images/dev/dev2.png" />
+                    <p>Toevoeging van een welkomstscherm en afsluitend scherm. Visuele en inhoudelijke herindeling van
+                        uitleg en opdracht.</p>
+                </div>
+                <div class="uxtest">
+                    <h6>UX test</h6>
+                    <p>Nadat we al enkele pagina’s hadden gecodeerd en een klein prototype hadden ontwikkeld, vonden we
+                        het een goed moment om een UX-test uit te voeren. Het volledige rapport is hieronder te vinden:
+                    </p>
+                    <button class="bijlagebutton">Rapport</button>
+                </div>
+                <div class="Opleverversie">
+                    <h6>Eindversie</h6>
+                    <p>Na het doorvoeren van de aanpassingen hebben we een voorlopige eindversie ontwikkeld, die we
+                        vervolgens online hebben gezet op een server.</p>
+                    <p class="p">Link naar Live website: (nog niet beschikbaar)</p>
+
+                </div>
+            </div>
+            <div id="bewijs4">
+                <h2>Portfolio</h2>
+                <p>Dit onderdeel is nog in ontwikkeling. Mijn portfolio-website is nog niet volledig afgerond en er is
+                    nog geen usertest uitgevoerd. In de komende periode wil ik de site verder afwerken en testen met
+                    gebruikers om feedback te verzamelen en verbeteringen door te voeren.</p>
+
+            </div>
+        </div>
         </div>
 
 
