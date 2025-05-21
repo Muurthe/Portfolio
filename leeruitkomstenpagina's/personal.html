@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio website </title>
     <link rel="stylesheet" href="/styles.css" />
-    <link rel="stylesheet" href="leeruitkomst.css" />
-    
+    <link rel="stylesheet" href="LO-algemeen.css" />
+    <link rel="stylesheet" href="personal.css" />
+    <script src="LO-algemeen.js" defer></script>
+
 </head>
+
 <body>
     <header>
         <h1>
@@ -21,36 +25,174 @@
             </ul>
         </nav>
     </header>
-    <main class="intro">
-        
-
-        
-    </main>
-    <footer>
-        <div class="footer-content">
-            <div class="footer-column">
-                <h4><a href="/leeruikomsten.html">Home</a></h4>
+    <main class="personal">
+        <div class="head">
+            <h1>5. Personal Leadership</h1>
+            <div class="omschrijving">
+                <p>You take the initiative in asking for, and reflecting on, feedback. You identify your own core values
+                    as the basis for your study career and professional development</p>
             </div>
-            <div class="footer-column">
-                <h4><a href="/leeruikomsten.html">Projecten</a></h4>
-                <ul>
-                    <li><a href="/leeruikomsten.html">Branding</a></li>
-                    <li><a href="/leeruikomsten.html">UX</a></li>
-                    <li><a href="/leeruikomsten.html">Development</a></li>
-                    <li><a href="/leeruikomsten.html">Sprint X</a></li>
-                </ul>
-            </div>
-            <div class="footer-column">
-                <h4><a href="/leeruikomsten.html">Leeruitkomsten</a></h4>
-                <ul>
-                    <li><a href="/leeruikomsten.html">Interactive mediaproducts</a></li>
-                    <li><a href="/leeruikomsten.html">Development en version control</a></li>
-                    <li><a href="/leeruikomsten.html">Iterative design</a></li>
-                    <li><a href="/leeruikomsten.html">Professional standard</a></li>
-                    <li><a href="/leeruikomsten.html">Personal leadership</a></li>
-                </ul>
+            <div class="Leernav">
+                <a onclick="showContent('bewijs1')">Persoonlijkheidstest</a>
+                <a onclick="showContent('bewijs2')">Kernwaarden Boris</a>
+                <a onclick="showContent('bewijs3')">Planning en Trello</a>
+                <a onclick="showContent('bewijs4')">Playground film fest reflectie</a>
             </div>
         </div>
-    </footer>
+
+        <div class="content">
+            <div id="bewijs1" class="hidden">
+                <h2>Persoonlijkheidstest</h2>
+                <p>Tijdens een workshop heb ik een persoonlijkheidstest gedaan. Dit om een beter beeld te krijgen. Ook
+                    was het heel interessant, want iedereen van ons groepje had een andere. Guido zei hiervan dat hij nu
+                    zien waarom onze groep werkt. Hieronder staat de resultaten en een reflectie. Ook moesten we een
+                    andere opdracht doen met kernwaarden voor jezelf zoeken. </p>
+                <div class="resultaten">
+                    <p>Tijdens een les gingen we een persoonlijkheidstest doen. Deze test had ik 1-3-2024 ook gedaan. De
+                        resultaten zagen er toen zo uit: </p>
+                    <img src="/images/persoontest/perstest1.png" alt="afbeelding van prototype cognitief">
+                    <p>De resultaten van de test van de les ziet er zo uit:  </p>
+                    <img src="/images/persoontest/perstest3.png" alt="afbeelding van prototype cognitief">
+                    <img src="/images/persoontest/perstest2.png" alt="afbeelding van prototype cognitief">
+                </div>
+                <div class="reflectietest">
+                    <p>Tijdens een workshop hebben we een persoonlijkheidstest gedaan om onszelf en onze groepsdynamiek
+                        beter te leren kennen. Het was interessant om te zien dat ieder groepslid een ander type had.
+                        Guido gaf aan dat hij daardoor begreep waarom onze groep goed samenwerkt.
+                        Ik had deze test eerder gedaan op 1 maart 2024, en opnieuw tijdens de les. De resultaten waren
+                        grotendeels gelijk, met enkele kleine verschillen:
+                    </p>
+                    <ul>
+                        <li>Ik ben minder introvert geworden. Sinds ik in Eindhoven woon (ongeveer zeven maanden), ben
+                            ik socialer geworden en voel ik me zekerder in gezelschap, bijvoorbeeld binnen mijn
+                            volleybalteam.</li>
+                        <li>Ik ben volgens de test minder intuïtief geworden, maar dat herken ik niet. Ik let nu juist
+                            meer op bewijs en feiten, mede dankzij tools zoals ChatGPT.</li>
+                        <li>Mijn emotionele score is ongeveer gelijk gebleven. Ik voel me wel rationeler en probeer
+                            situaties vanuit meerdere perspectieven te bekijken.</li>
+                        <li>Ik plan nog steeds niet veel, maar doe dat wel steeds vaker. Die verandering zie ik terug in
+                            de test.</li>
+                        <li>De overgang van turbulent naar assertief herken ik ook. Ik voel me zekerder, wat ook
+                            samenhangt met het minder introvert zijn.</li>
+                    </ul>
+                </div>
+
+                <h2>kernwaarden</h2>
+                <p>Naast de persoonlijkheidstest hebben we ook kernwaarde gezocht voor jezelf
+                    Wat ik denk dat mijn kernwaarden zijn:
+                </p>
+                <ul>
+                    <li>Calm (ik ben vaak rustig) </li>
+                    <li>Goodness (ik probeer me zo goed mogelijk te gedragen)</li>
+                    <li>Improvement (ik probeer altijd mezelf te verbeteren. Wel blij zijn met wat ik nu goed doe, maar
+                        altijd reflecteer naar wat ik beter kan doen en hoe ik mezelf dan kan verbeteren)</li>
+                    <li>Reflective</li>
+                    <li>Kindness( ik probeer altijd lief te zijn en als iemand hulp nodig heeft help ik graag)</li>
+                    <li>Understanding (Ik probeer altijd mensen te begrijpen en in hun schoenen te staan hoe ze op iets
+                        zijn gekomen of waarom ze iets hebben gedaan)</li>
+                </ul>
+
+                <h6>Wat Noortje en Jarvin vinden:</h6>
+                <ul>
+                    <li>Zorgvuldigheid: ik werk nauwkeurig en let op details.</li>
+                    <li>Eerlijkheid: ik ben eerlijk en zeg wat ik denk, op een respectvolle manier.</li>
+                    <li>Zorgzaamheid: ik zorg graag voor anderen.</li>
+                    <li>Hard work: ik werk hard aan school en opdrachten.</li>
+                </ul>
+
+                <div class="eindkernwaarden">
+                    <p>Hieruit heb ik een samenvatting van drie woorden gemaakt die ik denk dat het beste bij mijn
+                        passen</p>
+                    <ul>
+                        <li>Zorgvuldigheid = Ik ben nauwkeurig in mijn werk. Ik probeer het in mijn oog wel zo goed
+                            mogelijk en nauwkeurig te maken</li>
+                        <li>Verbetering (reflecterend) = Ik probeer altijd mezelf te verbeteren. Wel blij zijn met wat
+                            ik nu goed doe, maar altijd reflecteer naar wat ik beter kan doen en hoe ik mezelf dan kan
+                            verbeteren</li>
+                        <li>Goedheid (zorgzaam, vriendelijkheid, eerlijk) = Dit woord is een samenvatting van wat ik wil
+                            bereiken, namelijk zorgzaam, vriendelijk en zo eerlijk mogelijk zijn</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="bewijs2" class="hidden">
+                <h2>Kernwaarden Boris</h2>
+                <p>Voor Boris hebben we tijdens de les in een brand canvas drie kernwaarden geformuleerd. Eerst kwamen
+                    we op: verbeeldingskracht, verbondenheid en innovatief. Tijdens feedback bleek dat deze kernwaarden
+                    te veel op elkaar leken en te oppervlakkig waren. We kregen het advies om ze dieper te onderbouwen.
+                </p>
+
+                <div class="containerkern">
+                    <p>Na overleg met het team en op basis van een voorbeeldlijst van een derdejaars student, kozen we
+                        voor:</p>
+                    <ul>
+                        <li>Uniqueness: Boris’ muziek heeft een herkenbare en unieke stijl</li>
+                        <li>Peace: Zijn muziek straalt rust uit</li>
+                        <li>Exploration: Zijn muziek is als een ontdekkingsreis naar het onbekende</li>
+                    </ul>
+                </div>
+                <div class="feedbackkern">
+                    <p>Na feedback van Anke en Frank merkten we op dat deze kernwaarden vooral onze interpretatie waren.
+                        Daarom vroegen we ook feedback aan Boris. Hij gaf aan dat hij tegenwoordig meer experimenteert
+                        met energieke muziek, waardoor ‘peace’ minder passend is. We hebben die kernwaarde vervangen
+                        door:</p>
+                    <ul>
+                        <li>Energie: Zijn muziek brengt kracht, ritme en beweging over.</li>
+                    </ul>
+                </div>
+                <div class="afbeeldingkern">
+                    <img src="/images/kernwaardenboris/kern1.png" alt="afbeelding van prototype cognitief">
+                    <img src="/images/kernwaardenboris/kern2.png" alt="afbeelding van prototype cognitief">
+                </div>
+            </div>
+
+            <div id="bewijs3">
+                <h2>Planning en Trello</h2>
+                <p>In mijn groepje waren we in de tweede week het overzicht kwijt wat we allemaal moesten doen en wat we
+                    gedaan hebben. Dit was vooral verwarrend voor Noortje aangezien die vaak ziek was. Ik heb hierop een
+                    planning gemaakt in Word. Ik heb ook geprobeerd deadlines te plannen. Eerst gebruikte we Trello,
+                    maar dit werd een beetje in de steek gelaten. Hierover heb ik ook een reflectie geschreven. </p>
+                <img src="/images/planningpersonal/planning1.png" alt="afbeelding van prototype cognitief">
+                <img src="/images/planningpersonal/planning2.png" alt="afbeelding van prototype cognitief">
+
+                <div class="reflectietrello">
+                    <h6>Reflectie waarom we geen Trello gebruiken</h6>
+                    <p>Tijdens dit project vond ik het lastig om Trello goed te gebruiken. In eerdere projecten werkten
+                        we met Jira, wat toen goed ging, maar later minder goed werd bijgehouden. In dit project vonden
+                        we het lastig om taken goed te definiëren, zeker omdat het project in het begin vaag was en er
+                        steeds nieuwe taken bijkwamen. Bovendien werkten we allemaal aan dezelfde onderdelen, zoals
+                        interviews, waardoor het lastig was om onderscheid te maken in Trello.
+                        Daarom heb ik een takenlijst in Word gemaakt, inclusief een soort agenda. Dit hielp om overzicht
+                        te krijgen. Deadlines inschatten vond ik lastig, omdat ik niet wist hoe lang taken zouden duren.
+                        Voor een volgend project lijkt het me nuttig om beide systemen te combineren: een duidelijke
+                        takenlijst in Word en Trello of Jira voor het teamoverzicht.
+                    </p>
+                </div>
+            </div>
+
+            <div id="bewijs4" class="hidden">
+                <h2>Playground film fest reflectie</h2>
+                <p>Tijdens het event heb ik veel interessante dingen gezien, vooral de 3D-art trok mijn aandacht. Ik
+                    vond het inspirerend en het lijkt me leuk om dit zelf te maken. Ik zag ook een 3D-game die me erg
+                    aansprak.</p>
+                <img src="/images/3dfest/3dfest1.png" alt="afbeelding van prototype cognitief">
+                <img src="/images/3dfest/3dfest2.png" alt="afbeelding van prototype cognitief">
+                <div class="artist">
+                    <p>Samen met Jarvin woonde ik een "Artist Talk" bij van Marlon Nowe, een animator die werkte aan
+                        films als Frozen, Rapunzel en Wreck-It Ralph. Ik vond het indrukwekkend hoeveel projecten hij
+                        heeft gedaan. Wat me het meest raakte, was zijn uitspraak dat iedereen dit zou kunnen bereiken.
+                        Hij vertelde dat hij tijdens zijn studie geen uitblinker was, maar eerder gemiddeld presteerde.
+                        Daarin herkende ik mezelf.
+                        Zijn verhaal gaf me motivatie. Ik heb vaak gedacht dat ik niet goed genoeg was als designer,
+                        maar zijn ervaring laat zien dat het ook draait om doorzetten en passie. Deze lezing zal ik
+                        onthouden als ik twijfels heb over mijn ontwerpkwaliteiten.
+                    </p>
+                    <img src="/images/3dfest/3dfest3.png" alt="afbeelding van prototype cognitief">
+                </div>
+            </div>
+        </div>
+    </main>
+
 </body>
+
 </html>

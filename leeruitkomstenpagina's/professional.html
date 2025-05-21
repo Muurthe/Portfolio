@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio website </title>
     <link rel="stylesheet" href="/styles.css" />
-    <link rel="stylesheet" href="leeruitkomst.css" />
-    
+    <link rel="stylesheet" href="LO-algemeen.css" />
+    <script src="LO-algemeen.js" defer></script>
+
 </head>
+
 <body>
     <header>
         <h1>
@@ -22,35 +25,45 @@
         </nav>
     </header>
     <main class="intro">
-        
-
-        
-    </main>
-    <footer>
-        <div class="footer-content">
-            <div class="footer-column">
-                <h4><a href="/leeruikomsten.html">Home</a></h4>
+        <div class="head">
+            <h1>4. Professional standard</h1>
+            <div class="omschrijving">
+                <p>You apply professional practice, both individually and in teams, in the areas of project organisation, communication with stakeholders, exploratory research, and reporting.</p>
             </div>
-            <div class="footer-column">
-                <h4><a href="/leeruikomsten.html">Projecten</a></h4>
-                <ul>
-                    <li><a href="/leeruikomsten.html">Branding</a></li>
-                    <li><a href="/leeruikomsten.html">UX</a></li>
-                    <li><a href="/leeruikomsten.html">Development</a></li>
-                    <li><a href="/leeruikomsten.html">Sprint X</a></li>
-                </ul>
-            </div>
-            <div class="footer-column">
-                <h4><a href="/leeruikomsten.html">Leeruitkomsten</a></h4>
-                <ul>
-                    <li><a href="/leeruikomsten.html">Interactive mediaproducts</a></li>
-                    <li><a href="/leeruikomsten.html">Development en version control</a></li>
-                    <li><a href="/leeruikomsten.html">Iterative design</a></li>
-                    <li><a href="/leeruikomsten.html">Professional standard</a></li>
-                    <li><a href="/leeruikomsten.html">Personal leadership</a></li>
-                </ul>
+            <div class="Leernav">
+                <a onclick="showContent('bewijs1')">Persdstest</a>
+                <a onclick="showContent('bewijs2')">Ke Boris</a>
+                <a onclick="showContent('bewijs3')">Plallo</a>
+                <a onclick="showContent('bewijs3')">Ple</a>
             </div>
         </div>
-    </footer>
+
+        <div class="content">
+            <div id="bewijs1">
+                <h2>UX Cardan airlines figma</h2>
+                <p>Beschrijving<br>Figma link</p>
+                <h3>UX test 1: Think-Aloud protocol:</h3>
+                <p>Doelen:<br>- Is de functie duidelijk<br>- Loopt het proces soepel</p>
+                <p>Resultaten:<br>-</p>
+                <h3>UX test 2:</h3>
+                <p>Doelen:<br>- Is de functie duidelijk<br>- Loopt het proces soepel</p>
+                <p>Resultaten:<br>-</p>
+            </div>
+
+            <div id="bewijs2" class="hidden">
+                <h2>Bewijs 2 content</h2>
+                <p>Inhoud voor bewijs 2 komt hier.</p>
+            </div>
+
+            <div id="bewijs3" class="hidden">
+                <h2>Bewijs 3 content</h2>
+                <p>Inhoud voor bewijs 3 komt hier.</p>
+            </div>
+        </div>
+
+
+    </main>
+
 </body>
+
 </html>
