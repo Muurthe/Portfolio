@@ -34,3 +34,135 @@
     font-weight: normal;
     font-size: 1.5rem;
 }
+
+.cognitief h3 {
+    margin-bottom: 1rem;
+}
+
+.cognitief h4 {
+    margin: 1rem 0;
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
+.cognitief p {
+    margin-bottom: 0.5rem;
+}
+
+.cognitief ul {
+    margin-left: 1.1rem;
+}
+
+.proto h4 {
+    margin: 1rem 0;
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
+.container1 {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-between;
+    gap: 3rem;
+    
+}
+.container1 img {
+    max-width: 30%;
+}
+
+.onderzoekmotor ul {
+    margin-left: 1.1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.2rem;
+
+}
+
+/* carousel */
+.carousel5 {
+    position: relative;
+    width: 270px;
+    margin: 0;
+    background-color: #f4e6db;
+    margin: 1rem 0;
+}
+
+/* Wrapper zodat overflow niet op de knoppen zit */
+.slideswrapper5 {
+    overflow: hidden;
+    width: 270px;
+    margin: 0 auto;
+}
+
+.slides5 {
+    display: flex;
+    width: calc(270px * 7);
+    transition: transform 0.4s ease-in-out;
+}
+
+.slide5 {
+    width: 250px;
+    height: 250px;
+    flex-shrink: 0;
+    margin: 0 10px;
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.slide5 img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+}
+
+/* Pijlen absoluut naast de afbeelding */
+.button5 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #8b956d;
+    border: none;
+    color: white;
+    font-size: 24px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.button5.prev {
+    left: -40px;
+}
+
+.button5.next {
+    right: -40px;
+}
+
+.button5:hover {
+    background-color: #6d7a52;
+}
+
+.carouselcontainer {
+    margin: 2rem;
+}
+
+.uitleg h6{
+    font-weight: normal;
+    font-size: 1.2rem;
+}
+
+.uitleg p {
+    margin-bottom: 1rem;
+}
+
+.uiteinddesign h3 {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.eindfeedback h3{
+    margin-top: 2rem;
+}

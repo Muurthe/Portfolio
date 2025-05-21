@@ -63,3 +63,4 @@ document.querySelector('.button4.next').addEventListener('click', () => {
   index4 = Math.min(index4 + 1, maxIndex4);
   slides4.style.transform = `translateX(-${index4 * 100}%)`;
 });
+
