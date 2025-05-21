@@ -26,7 +26,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
-    max-width: 35rem;
+    max-width: 40rem;
 }
 
 .grid h4 {
@@ -43,7 +43,8 @@
 }
 
 .wieboris p {
-    max-width: 30rem;
+    max-width: 50rem;
+    margin-bottom: 1rem;
 }
 
 .afbeelding img {
@@ -65,6 +66,7 @@
 .doelenresultaten {
     display: flex;
     gap: 2rem;
+    margin-bottom: 1rem;
 
 }
 
