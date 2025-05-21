@@ -8,3 +8,32 @@ h6 {
     margin-top: 2rem;
     margin-bottom: 0.3rem
 }
+
+/* portfolio */
+.logo1 {
+    max-width: 18rem;
+}
+
+p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.containerimg {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.containerimg2 {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.containerimg3 {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
