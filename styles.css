@@ -129,7 +129,6 @@ footer a {
 
 h3 {
     font-weight: normal;
-    /* color: #858B6F; */
     margin-bottom: 0.4rem;
     font-family: 'tanfont';
 }
@@ -141,7 +140,8 @@ h3 {
     background-color: #88946E;
     border: none;
     border-radius: 6px;
-    color: white
+    color: white;
+    cursor: pointer;
 }
 
 .bijlagebutton:hover {
