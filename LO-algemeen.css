@@ -1,19 +1,12 @@
-.iterative,
-.development,
-.interactive,
-.personal,
-.professional {
-    background-color: #F2E3D8;
+.leeruitkomst-container{
     max-width: 1200px;
     margin: 0 auto;
     border-radius: 8px;
-    padding: 2.5rem 4rem;
 }
 
 .head  {
-    background-color: #F9F0E9;
     padding: 2rem;
-    border-radius: 8px;
+    border-radius: 4px;
     padding-bottom: 2rem;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     margin-bottom: 2rem;
@@ -37,12 +30,10 @@
 
 /* verschillende pagina css */
 .content > div{
-    background-color: #F9F0E9;
     color: #000;
     padding: 2rem;
     min-height: 300px;
     border-radius: 8px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -72,4 +63,10 @@
 
 .Leernav a:hover {
     background-color: #dab7a1;
+}
+
+.omschrijving h5 {
+    font-weight: normal;
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
 }
