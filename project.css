@@ -1,56 +1,71 @@
 .projectenpagina {
-    font-family: 'jungefont';
-    background-color: #f7ede7;
-    color: #3b573d;
-    margin: 0;
-    display: grid;
-    align-content: center;
-    justify-content: center;
-    gap: 2rem;
-  }
+  font-family: 'jungefont';
+  color: #3b573d;
+  margin: 0;
+  display: grid;
+  justify-content: center;
+  align-items: start;
+  gap: 2rem;
+  min-height: 60vh;
+  padding-bottom: 3rem ;
+}
 
 .projectenpagina h2 {
-    font-size: 2.5em;
-    margin-bottom: 24px;
-    color: #3b573d;
-    text-decoration: underline;
-    text-underline-offset: 0.5em;
-    font-family: 'tanfont';
-    font-weight: normal;
+  font-size: 2.5em;
+  margin-bottom: 4px;
+  color: #3b573d;
+  font-family: 'tanfont';
+  font-weight: normal;
 }
-  
+
 .project-items {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
-    max-width: 600px;
+  display: flex;
+  gap: 40px;
 }
-  
+
 /* Project blok als klikbare link */
-.item {
-    text-decoration: none;     /* Geen onderstreping */
-    color: inherit;            /* Zelfde kleur als tekst */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    transition: transform 0.2s ease;
+.project-container {
+  background-color: white;
+  padding:30px;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
-  
-.item h4 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-    color:black;
-    text-decoration: none;
+
+.project-container img {
+  width: 200px;
+  height: 150px;
+  border-radius: 6px;
 }
+
+.projectnaam {
+  font-weight: normal;
+    margin-bottom: 0.2rem;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    font-family: 'Playfair Display', serif;
+
+}
+
+
+.project-container p {
+  color: black;
+  margin-bottom: 1.4rem;
+}
+
+.project-container a {
+  width: 100%;
+  display: block;
+  text-align: center;
+  background-color: #CB9470;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  padding: 0.7rem 1.3rem;
+  text-decoration: none;
+  font-size: 0.9rem;
   
-  
-/* Specifiek voor branding-afbeelding */
-.item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .item:hover {
-    transform: scale(1.03);
-  }
+}
+.project-container a:hover {
+  background-color: #9e653f;
+}

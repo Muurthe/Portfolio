@@ -1,0 +1,52 @@
+.project-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.head {
+    padding: 0.4rem 3rem;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-between;
+    gap: 6%;
+    padding-bottom: 2rem;
+}
+
+
+.head h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
+    color: #64664A;
+    font-size: 3.2rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.7rem;
+    /* max-width: 40rem; */
+}
+
+.griditem {
+    align-items: start;
+    padding: 0;
+    margin: 0;
+}
+
+.grid h4 {
+    color: #64664A;
+    font-weight: normal;
+    font-size: 1.7rem;
+    margin: 0;
+}
+.grid p {
+    font-size: 1.2rem;
+}
+
+.head img {
+    max-width: 18%;
+    height: auto;
+    margin-right: 4rem;
+}

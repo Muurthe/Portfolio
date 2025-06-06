@@ -7,7 +7,7 @@
     <title>Portfolio website </title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="project.css" />
-    <base href="/Portfolio/">
+    <!-- <base href="/Portfolio/"> -->
 </head>
 
 <body>
@@ -17,7 +17,7 @@
         </h1>
         <nav>
             <ul>
-                <li><a href="/">Home</a></li>
+                <li><a href="">Home</a></li>
                 <li><a href="project.html">Projecten</a></li>
                 <li><a href="leeruikomsten.html">Leeruitkomsten</a></li>
             </ul>
@@ -28,28 +28,36 @@
     <main class="projectenpagina">
         <h2>Projecten</h2>
         <div class="project-items">
-            <a href="branding.html" class="item">
-                <h4>Branding</h4>
-                <img src="images/brandingimg.png" alt="foto van Mirthe">
-            </a>
-            <a href="ux.html" class="item">
-                <h4>UX</h4>
-                <img src="images/ux.png" alt="ux designs">
-            </a>
-            <a href="dev.html" class="item">
-                <h4>Development</h4>
+            <div class="project-container">
+                <img src="images/projectimg.png" alt="foto">
+                <h4 class="projectnaam">Branding</h4>
+                <p>Verhaaltje over Branding</p>
+                <a href="branding.html" target="_blank">Bekijk project</a>
+            </div>
+            <div class="project-container">
+                <img src="images/projectimg.png" alt="ux designs">
+                <h4 class="projectnaam">UX</h4>
+                <p>Verhaaltje over ux</p>
+                <a href="ux.html" target="_blank" >Bekijk project</a>
+            </div>
+            <div class="project-container">
                 <img src="images/projectimg.png" alt="code deve">
-            </a>
-            <a href="sprintx.html" class="item">
-                <h4>Sprint X</h4>
+                <h4 class="projectnaam">Development</h4>
+                <p>Verhaaltje over dev</p>
+                <a href="devversion.html" target="_blank">Bekijk project</a>
+            </div>
+            <div class="project-container">
                 <img src="images/projectimg.png" alt="3d model afbeelding">
-            </a>
+                <h4 class="projectnaam">Sprint X</h4>
+                <p>Verhaaltje over Sprintx </p>
+                <a href="sprintx.html" target="_blank" >Bekijk project</a>
+            </div>
         </div>
     </main>
     <footer>
         <div class="footer-content">
             <div class="footer-column">
-                <h4><a href="/">Home</a></h4>
+                <h4><a href="">Home</a></h4>
             </div>
             <div class="footer-column">
                 <h4><a href="project.html">Projecten</a></h4>
