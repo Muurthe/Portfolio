@@ -1,29 +1,70 @@
 .intro {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    background-color: white;
-    margin: 4rem auto;
-    max-width: 1000px;
+    align-items: start;
+    gap: 6rem;
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 2rem;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    gap: 2rem;
-    font-weight: normal;
+    /* background-color: rgb(218, 198, 236); */
+    min-height: 60vh;
 }
-  
+
 .image-container img {
-    width: 250px;
-    height: auto;
-    border-radius: 5px;
+    max-width: 80%;
+    width: auto;
 }
-  
+
 .text-container {
-    max-width: 600px;
+    max-width: 50%;
+
 }
 
 .text-container h2 {
-    font-size: 1.5rem;
+    font-size: 3rem;
     margin-top: 0;
-    font-weight: normal;
-    margin-bottom: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.p {
+    margin: 0;
+}
+
+.bekijkproject {
+    background-color: #CB9470;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    padding: 0.7rem 1.2rem;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    flex-direction: column; /* Elementen stapelen */
+    align-items: center;    /* Centreer inhoud */
+    text-align: left;     /* Optioneel: tekst centreren */
+    gap: 2rem;              /* Iets kleinere afstand tussen items */
+    padding:  1.4rem;          /* Minder padding op mobiel */
+  }
+
+  .text-container {
+    max-width: 100%;
+  }
+
+  .text-container h2 {
+    font-size: 2rem;
+  }
+  .intro p {
+    font-size: 0.7rem
+}
+
+  .bekijkproject {
+    font-size: 0.6rem;
+    padding: 0.6rem 1.2rem;
+  }
 }
