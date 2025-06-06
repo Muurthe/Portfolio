@@ -2,10 +2,11 @@
     font-family: 'jungefont';
     background-color: #f7ede7;
     color: #3b573d;
-    padding: 80px;
     margin: 0;
-    padding-left: 10.0rem;
-    
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    gap: 2rem;
   }
 
 .projectenpagina h2 {
