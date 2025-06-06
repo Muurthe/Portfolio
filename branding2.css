@@ -1,35 +1,7 @@
-.branding {
-    max-width: 1200px;
-    margin: 0 auto;
-    border-radius: 8px;
-}
-
-.head {
-    background-color: #FDF3E9;
-    padding: 2rem;
-    border-radius: 8px;
-    padding-bottom: 1.0rem;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    margin-bottom: 2rem;
-}
-
-.head h1 {
-    font-family: 'Playfair Display', serif;
-    font-weight: normal;
-    color: #64664A;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-    max-width: 40rem;
-}
-
-.grid h4 {
-    color: #88946E;
-    font-weight: normal;
-    font-size: 1.5rem;
+.head img {
+    max-width: 18%;
+    height: auto;
+    margin-right: 4rem;
 }
 
 .wieboris {
