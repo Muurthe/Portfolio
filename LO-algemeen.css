@@ -16,9 +16,10 @@
 
 
 .head h1 {
-    font-family: 'tanfont';
+    font-family: 'Playfair Display', serif;
     font-weight: normal;
     color: #88946E;
+    font-size: 3rem;
 }
 
 .omschrijving p {
