@@ -43,3 +43,9 @@
 .grid p {
     font-size: 1.2rem;
 }
+
+.head img {
+    max-width: 18%;
+    height: auto;
+    margin-right: 4rem;
+}
