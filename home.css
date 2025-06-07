@@ -31,6 +31,9 @@
     margin: 0;
     font-size: 1.5rem;
 }
+#p2 {
+  margin-bottom: 1.5rem;
+}
 
 .bekijkproject {
     background-color: #CB9470;
@@ -45,11 +48,11 @@
 
 @media screen and (max-width: 767px) {
   .intro {
-    flex-direction: column; /* Elementen stapelen */
-    align-items: center;    /* Centreer inhoud */
-    text-align: left;     /* Optioneel: tekst centreren */
-    gap: 2rem;              /* Iets kleinere afstand tussen items */
-    padding:  1.4rem;          /* Minder padding op mobiel */
+    flex-direction: column; 
+    align-items: center;   
+    text-align: left;     
+    gap: 2rem;              
+    padding:  1.4rem;          
   }
 
   .text-container {
