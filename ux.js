@@ -9,10 +9,19 @@ const slideWidth = 270;
 document.querySelector('.button5.prev').addEventListener('click', () => {
   index5 = Math.max(index5 - 1, 0);
   slides5.style.transform = `translateX(-${index5 * slideWidth}px)`;
+  updateButtons5()
 });
 
 document.querySelector('.button5.next').addEventListener('click', () => {
   const maxIndex5 = totalSlides5 - 1;
   index5 = Math.min(index5 + 1, maxIndex5);
   slides5.style.transform = `translateX(-${index5 * slideWidth}px)`;
+  updateButtons5()
 });
+updateButtons5()
+
+function updateButtons5() {
+  const maxIndex5 = totalSlides5 - 1;
+  document.querySelector('.button5.prev').style.display = index5 > 0 ? 'block' : 'none';
+  document.querySelector('.button5.next').style.display = index5 < maxIndex5 ? 'block' : 'none';
+}
