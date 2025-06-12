@@ -71,3 +71,10 @@
     font-size: 1rem;
     margin-bottom: 0.4rem;
 }
+
+.Leernav a.selected {
+  color: white;             
+  background-color: #CB9470; 
+  padding: 6px 12px;
+  border-radius: 6px;
+}
