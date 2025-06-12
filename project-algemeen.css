@@ -1,5 +1,5 @@
 .project-container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     border-radius: 8px;
 }
@@ -49,4 +49,21 @@
     max-width: 18%;
     height: auto;
     margin-right: 4rem;
+}
+
+h3 {
+    font-weight: normal;
+    font-family: 'Playfair Display', serif;
+    font-weight: 200;
+    font-size: 2rem;
+    margin-bottom: 0.4rem;
+    margin-top: 6rem;
+}
+
+h5 {
+    font-weight: normal;
+    font-size: 1.5rem;
+    font-family: 'Playfair Display', serif;
+    font-family: 0.8rem;
+    margin-top: 1.2rem;
 }

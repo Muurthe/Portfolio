@@ -1,18 +1,16 @@
 .head img {
-    max-width: 18%;
+    max-width: 16%;
     height: auto;
     margin-right: 4rem;
 }
 
 .wieboris {
-    display: flex;
-    flex-wrap: wrap;
-
-    gap: 2rem;
+ margin-left: 1rem;
+ margin-top: 4.5rem;
 }
 
 .wieboris p {
-    max-width: 50rem;
+    max-width: 35rem;
     margin-bottom: 1rem;
 }
 
@@ -39,260 +37,33 @@
 
 }
 
-.doelen {
-    max-width: 20rem;
-    font-size: 0.8rem;
-}
-
 .doelenresultaten h4 {
     font-weight: normal;
+    font-family: 'Playfair Display', serif;
     color: #88946E;
-    font-size: 1rem;
+    font-size: 1.7rem;
+    margin-bottom: 0.4rem;
+}
+
+.doelen {
+    min-width: 40%;
+    font-size: 1.2rem;
 }
 
 .doelen ul {
     margin-left: 1rem;
 }
 
-.design {
-    margin-top: 2rem;
-
+.titellogo {
+    margin-top: 0rem;
 }
 
-.design h5 {
-    font-weight: normal;
-    font-size: 1rem;
-}
-
-.container {
-    display: flex;
-    gap: 7rem;
-}
-
-.titellogo h5 {
-    font-family: 'tanfont';
-    font-family: 0.8rem;
-    margin-top: 1.2rem;
-}
-
-
-/* carousel */
-.carousel {
-    position: relative;
-    width: 270px;
-    margin: 0;
-}
-
-/* Wrapper zodat overflow niet op de knoppen zit */
-.slideswrapper {
-    overflow: hidden;
-    width: 270px;
-    margin: 0 auto;
-}
-
-.slides {
-    display: flex;
-    width: calc(270px * 7);
-    transition: transform 0.4s ease-in-out;
-}
-
-.slide {
-    width: 250px;
-    height: 250px;
-    flex-shrink: 0;
-    margin: 0 10px;
-    background-color: white;
-    border-radius: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-.slide img {
-    max-width: 90%;
-    max-height: 90%;
-    object-fit: contain;
-}
-
-/* Pijlen absoluut naast de afbeelding */
-.button1 {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: #8b956d;
-    border: none;
-    color: white;
-    font-size: 24px;
-    padding: 8px 12px;
-    border-radius: 8px;
-    cursor: pointer;
-    z-index: 10;
-}
-
-.button1.prev {
-    left: -40px;
-}
-
-.button1.next {
-    right: -40px;
-}
-
-.button:hover {
-    background-color: #6d7a52;
-}
-
-/* carousel 2 stylescapes */
-.container2 {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
-    gap: 4rem;
-    margin-top: 2rem;
-}
-
-.container2 h5 {
-    font-family: 'tanfont';
-    font-family: 0.8rem;
-    margin-top: 1.2rem;
-}
-
-.carousel2 {
-    position: relative;
-    width: 100%;
-}
-
-.slideswrapper2 {
-    overflow: hidden;
-    margin: 0 auto;
-}
-
-.slides2 {
-    display: flex;
-    transition: transform 0.5s ease;
-}
-
-.slide2 {
-    min-width: 100%;
-    box-sizing: border-box;
-    padding: 10px;
-}
-
-.slide2 img {
-    width: 100%;
-    height: auto;
-    border: 4px solid white;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    display: block;
-}
-
-.button2 {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: #8b956d;
-    color: white;
-    border: none;
-    font-size: 24px;
-    cursor: pointer;
-    padding: 10px;
-    border-radius: 10%;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    z-index: 100;
-}
-
-.button2.prev {
-    left: -40px;
-}
-
-.button2.next {
-    right: -40px;
-}
-
-
-
-.container3 {
-    position: relative;
-    gap: 4rem;
-    margin-top: 2rem;
-}
-
-/* carousel brandguide */
-.carousel3 {
-    position: relative;
-    width: 290px;
-    margin: 0;
-}
-
-/* Wrapper zodat overflow niet op de knoppen zit */
-.slideswrapper3 {
-    overflow: hidden;
-    width: 290px;
-    margin: 0 auto;
-}
-
-.slides3 {
-    display: flex;
-    transition: transform 0.4s ease-in-out;
-    width: calc(290px * 7);
-}
-
-.slide3 {
-    display: flex;
-    width: 270px;
-    height: 270px;
-    flex-shrink: 0;
-    margin: 0 10px;
-    background-color: white;
-    border-radius: 12px;
-
-    justify-content: center;
-    align-items: center;
-}
-
-.slide3 img {
-    max-width: 90%;
-    max-height: 90%;
-    object-fit: contain;
-}
-
-/* Pijlen absoluut naast de afbeelding */
-.button3 {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: #8b956d;
-    border: none;
-    color: white;
-    font-size: 24px;
-    padding: 8px 12px;
-    border-radius: 8px;
-    cursor: pointer;
-    z-index: 10;
-}
-
-.button3.prev {
-    left: -40px;
-}
-
-.button3.next {
-    right: -40px;
-}
 
 .stylescape {
     width: 100%;
 }
 
-.container3 h5 {
-    font-family: 'tanfont';
-    font-family: 0.8rem;
-    margin-top: 1.2rem;
-}
-
 .container3 h6 {
-    font-family: 'tanfont';
     font-size: 1.0rem;
     margin-top: 1.2rem;
     margin-bottom: 0.5rem;
@@ -315,76 +86,6 @@
     list-style: none;
 }
 
-/* carousel4 */
-.carousel4 {
-    position: relative;
-    max-width: 80%;
-    margin: 0;
-    padding: 1rem;
-}
-
-.slideswrapper4 {
-    overflow: hidden;
-    width: 100%;
-    margin: 0 auto;
-}
-
-.slides4 {
-    display: flex;
-    transition: transform 0.4s ease-in-out;
-    width: 100%;
-}
-
-.slide4 {
-    /* display: flex; */
-    width: 100%;
-    height: auto;
-    flex-shrink: 0;
-    margin: 0;
-    background-color: white;
-    border-radius: 12px;
-    justify-content: center;
-    align-items: center;
-    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
-    padding: 1rem;
-}
-
-.slide4 h6 {
-    margin-top: 0.2rem;
-    font-size: 1.7rem;
-    font-weight: normal;
-    margin-bottom: 0.5rem;
-}
-
-.slide4 img {
-    width: 100%;
-    height: auto;
-    max-height: 70vh;
-    object-fit: contain;
-}
-
-/* Pijlen absoluut naast de afbeelding */
-.button4 {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: #8b956d;
-    border: none;
-    color: white;
-    font-size: 24px;
-    padding: 8px 12px;
-    border-radius: 8px;
-    cursor: pointer;
-    z-index: 10;
-}
-
-.button4.prev {
-    left: -40px;
-}
-
-.button4.next {
-    right: -40px;
-}
 
 .Eindfeedback {
     margin-top: 2rem;
@@ -395,12 +96,16 @@
 }
 
 .Eindfeedback p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     max-width: 70%;
 }
 
 .Eindfeedback h6 {
     margin-top: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: normal;
+}
+
+p {
+    font-size: 1.2rem;
 }
