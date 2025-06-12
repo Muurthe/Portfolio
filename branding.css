@@ -81,7 +81,6 @@
     position: relative;
     width: 270px;
     margin: 0;
-    background-color: #f4e6db;
 }
 
 /* Wrapper zodat overflow niet op de knoppen zit */
@@ -225,7 +224,6 @@
     position: relative;
     width: 290px;
     margin: 0;
-    background-color: #f4e6db;
 }
 
 /* Wrapper zodat overflow niet op de knoppen zit */
@@ -252,7 +250,6 @@
 
     justify-content: center;
     align-items: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .slide3 img {
@@ -323,7 +320,6 @@
     position: relative;
     max-width: 80%;
     margin: 0;
-    background-color: #f4e6db;
     padding: 1rem;
 }
 
@@ -349,7 +345,7 @@
     border-radius: 12px;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
     padding: 1rem;
 }
 
