@@ -126,9 +126,7 @@ footer a {
 }
 
 .bijlagebutton {
-    margin-top: 3rem;
-    width: 150px;
-    height: 30px;
+    margin-top: 0rem;
     background-color: #CB9470;
     border: none;
     border-radius: 6px;

@@ -2,6 +2,7 @@
     max-width: 1000px;
     margin: 0 auto;
     border-radius: 8px;
+    padding-bottom: 7rem;
 }
 
 .head {
@@ -56,14 +57,18 @@ h3 {
     font-weight: 600;
     font-size: 2rem;
     margin-bottom: 0.4rem;
-    margin-top: 6rem;
+    margin-top: 5rem;
     color: #64664A;
 }
 
 h5 {
     font-weight: normal;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-family: 'Playfair Display', serif;
     margin-top: 3.5rem;
     margin-bottom: 0.7rem;
+}
+
+p {
+    font-size: 1.2rem;
 }
