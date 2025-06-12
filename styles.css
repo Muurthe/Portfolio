@@ -85,6 +85,11 @@ footer {
     background-color: #a4b892;
     color: white;
     padding: 2rem;
+    background-image: url('images/Achtergrond/footerplant.png');
+    background-size: cover;
+    background-position: right ;
+    background-repeat: no-repeat;
+    background-size: 15%;
 }
 
 .footer-content {
