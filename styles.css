@@ -126,7 +126,7 @@ footer a {
 }
 
 .bijlagebutton {
-    margin-top: 2rem;
+    margin-top: 3rem;
     width: 150px;
     height: 30px;
     background-color: #CB9470;
@@ -136,7 +136,7 @@ footer a {
     cursor: pointer;
     padding: 0.5rem;
     text-decoration: none;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 .bijlagebutton:hover {
