@@ -33,35 +33,6 @@
     margin-top: 1rem;
 }
 
-/* kerwaarden boris */
-.containerkern ul {
-    margin-top: 1rem;
-    margin-left: 1.5rem;
-    margin-bottom: 0.5rem;
-}
-
-.feedbackkern ul {
-    margin-left: 1.5rem;
-    margin-bottom: 1rem;
-}
-
-.afbeeldingkern img {
-    border-radius: 8px;
-    width: 25rem;
-}
-
-/* planning */
-#bewijs3 img {
-    border-radius: 8px;
-    height: 20rem;
-    margin-top: 0.5rem;
-}
-
-.reflectietrello h6 {
-    margin-top: 1rem;
-    font-size: 1rem;
-}
-
 /* playground */
 
 .artist {
