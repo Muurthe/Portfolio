@@ -19,13 +19,15 @@
 }
 
 .reflectietrello h6 {
-    margin-top: 1rem;
-    font-size: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 0;
+    font-size: 1.3rem;
+    font-weight: 600;
 }
 
 /* contractmoment boris */
 .samenvattingInterview h6 {
-    font-size: 1rem;
+   
     margin-top: 0.5rem;
 }
 
@@ -40,11 +42,6 @@
     margin-top: 0.5rem;
 }
 
-/* bewijs4 */
-.trellosucces h6 {
-    font-size: 1rem;
-    margin-top: 1rem;
-}
 
 .link {
     margin-top: 1rem;
