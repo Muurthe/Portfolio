@@ -1,0 +1,16 @@
+.tekstblok a {
+    color: #7d9267;
+}
+
+.tekstblok {
+    display: flex;
+    gap: 5%;
+}
+
+.afbeeldingblok img{
+    border-radius: 8px;
+}
+
+.tekstx {
+    max-width: 40rem;
+}
