@@ -18,3 +18,25 @@
     margin-bottom: 1rem;
 }
 
+.uitlegslides {
+    background-color: white;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    padding: 1rem 9rem
+}
+.eind video {
+    border-radius: 8px;
+}
+.live {
+    margin-top: 1.5rem;
+}
+
+.feedbackux1 ul{
+    margin-left: 1.3rem;
+     max-width: 45rem;
+}
+
+p {
+    max-width: 45rem;
+}
