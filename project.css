@@ -50,6 +50,8 @@
 .project-container p {
   color: black;
   margin-bottom: 1.4rem;
+  max-width: 11rem;
+  font-size: 0.8rem;
 }
 
 .project-container a {
