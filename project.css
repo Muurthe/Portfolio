@@ -19,7 +19,8 @@
 }
 
 .project-items {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 5%;
 }
 
@@ -32,7 +33,7 @@
 }
 
 .project-container img {
-  width: 200px;
+  width: 340px;
   height: auto;
   /* border-radius: 6px; */
 }
@@ -50,7 +51,7 @@
 .project-container p {
   color: black;
   margin-bottom: 1.4rem;
-  max-width: 11rem;
+  max-width: 21rem;
   font-size: 0.8rem;
 }
 
