@@ -146,6 +146,10 @@ footer a {
     background-color: #ad7652;
 }
 
+.live {
+    margin-top: 1.5rem;
+}
+
 
 /* telefoon */
 @media screen and (max-width: 767px) {
