@@ -366,7 +366,7 @@
     margin: 0;
     background-color: white;
     border-radius: 12px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 3rem;
     padding-bottom: 1rem;
@@ -430,4 +430,13 @@
     justify-content: space-between;
     padding-left: 2rem;
     padding-right: 7rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+}
+
+.tekst p {
+    font-weight: 600;
+    background-color: #F6E5DB;
+    padding: 1rem;
+    border-radius: 8px;
 }
