@@ -53,3 +53,55 @@ function updateButtons7() {
   document.querySelector('.button7.next').style.display = index7 < maxIndex7 ? 'block' : 'none';
 }
 
+// Carousel 8 
+const slides8 = document.querySelector('.slides8');
+const totalSlides8 = document.querySelectorAll('.slide8').length;
+let index8 = 0;
+
+document.querySelector('.button8.prev').addEventListener('click', () => {
+  index8 = Math.max(index8 - 1, 0);
+  slides8.style.transform = `translateX(-${index8 * 100}%)`;
+  updateButtons8()
+  
+});
+
+document.querySelector('.button8.next').addEventListener('click', () => {
+  const maxIndex8 = totalSlides8 - 1;
+  index8 = Math.min(index8 + 1, maxIndex8);
+  slides8.style.transform = `translateX(-${index8 * 100}%)`;
+  updateButtons8()
+  
+});
+updateButtons8()
+function updateButtons8() {
+  const maxIndex8 = totalSlides8 - 1;
+  document.querySelector('.button8.prev').style.display = index8 > 0 ? 'block' : 'none';
+  document.querySelector('.button8.next').style.display = index8 < maxIndex8 ? 'block' : 'none';
+}
+
+// Carousel 9
+const slides9 = document.querySelector('.slides9');
+const totalSlides9 = document.querySelectorAll('.slide9').length;
+let index9 = 0;
+
+document.querySelector('.button9.prev').addEventListener('click', () => {
+  index9 = Math.max(index9 - 1, 0);
+  slides9.style.transform = `translateX(-${index9 * 100}%)`;
+  updateButtons9()
+  
+});
+
+document.querySelector('.button9.next').addEventListener('click', () => {
+  const maxIndex9 = totalSlides9 - 1;
+  index9 = Math.min(index9 + 1, maxIndex9);
+  slides9.style.transform = `translateX(-${index9 * 100}%)`;
+  updateButtons9()
+  
+});
+updateButtons9()
+function updateButtons9() {
+  const maxIndex9 = totalSlides9 - 1;
+  document.querySelector('.button9.prev').style.display = index9 > 0 ? 'block' : 'none';
+  document.querySelector('.button9.next').style.display = index9 < maxIndex9 ? 'block' : 'none';
+}
+
