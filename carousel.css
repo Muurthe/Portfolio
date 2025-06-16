@@ -461,9 +461,10 @@
 }
 
 .slide7 {
+    width: 100%;
     flex-shrink: 0;
     display: flex;
-    align-items: flex-start;
+    align-items: flex-start; 
     gap: 2rem;
     background: white;
     border-radius: 8px;
@@ -473,11 +474,12 @@
 
 .tksthome h5 {
     margin: 0 0 0.2rem 0;
-  font-size: 1.2rem;
+    font-size: 1.2rem;
 }
 
 .slide7 img {
-    width: 50%;
+    width: 400px;
+    height: auto;
     object-fit: contain;
     border-radius: 4px;
 }
@@ -493,13 +495,14 @@
     padding: 8px 12px;
     border-radius: 8px;
     cursor: pointer;
-    
+    z-index: 10;
 }
 
 .button7.prev {
-    left: 10px;
+    left: -40px;
 }
 
 .button7.next {
-    right: 10px;
+    right: -40px;
 }
+

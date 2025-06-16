@@ -27,35 +27,28 @@ function updateButtons5() {
 }
 
 
-// Carousel 7 – Brandguide
+// Carousel 7 
 const slides7 = document.querySelector('.slides7');
-const slidesWrapper7 = document.querySelector('.slideswrapper7');
 const totalSlides7 = document.querySelectorAll('.slide7').length;
-const slideWidth7 = slidesWrapper7.clientWidth;
 let index7 = 0;
-
-slides7.style.width = `${slideWidth7 * totalSlides7}px`;
-document.querySelectorAll('.slide7').forEach(slide => {
-  slide.style.width = `${slideWidth7}px`;
-});
 
 document.querySelector('.button7.prev').addEventListener('click', () => {
   index7 = Math.max(index7 - 1, 0);
-  slides7.style.transform = `translateX(-${index7 * slideWidth7}px)`;
-  updateButtons7();
+  slides7.style.transform = `translateX(-${index7 * 100}%)`;
+  updateButtons7()
+  
 });
 
 document.querySelector('.button7.next').addEventListener('click', () => {
   const maxIndex7 = totalSlides7 - 1;
   index7 = Math.min(index7 + 1, maxIndex7);
-  slides7.style.transform = `translateX(-${index7 * slideWidth7}px)`;
-  updateButtons7();
+  slides7.style.transform = `translateX(-${index7 * 100}%)`;
+  updateButtons7()
+  
 });
-
-updateButtons7();
-
+updateButtons7()
 function updateButtons7() {
-  const maxIndex7 = totalSlides7 -1;
+  const maxIndex7 = totalSlides7 - 1;
   document.querySelector('.button7.prev').style.display = index7 > 0 ? 'block' : 'none';
   document.querySelector('.button7.next').style.display = index7 < maxIndex7 ? 'block' : 'none';
 }
