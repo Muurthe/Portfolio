@@ -440,3 +440,71 @@
     padding: 1rem;
     border-radius: 8px;
 }
+
+/* carrousel 7 portfolio iteraties */
+.carousel7 {
+    position: relative;
+    max-width: 80%;
+    margin: 0;
+    padding: 1rem;
+}
+
+.slideswrapper7 {
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.slides7 {
+    display: flex;
+    transition: transform 0.4s ease-in-out;
+    width: 100%;
+}
+
+.slide7 {
+    width: 100%;
+    flex-shrink: 0;
+    margin: 0;
+    background-color: white;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: start;
+    padding: 1rem;
+    display: flex;
+    gap:2rem;
+
+}
+
+.tksthome h5{
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+    margin-top: 0;
+}
+
+.slide7 img {
+    width: 50%;
+    height: auto;
+    object-fit: contain;
+}
+
+.button7 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #8b956d;
+    border: none;
+    color: white;
+    font-size: 24px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.button7.prev {
+    left: -40px;
+}
+
+.button7.next {
+    right: -40px;
+}
