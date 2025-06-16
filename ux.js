@@ -55,7 +55,7 @@ document.querySelector('.button7.next').addEventListener('click', () => {
 updateButtons7();
 
 function updateButtons7() {
-  const maxIndex7 = totalSlides7 - 1;
+  const maxIndex7 = totalSlides7 -1;
   document.querySelector('.button7.prev').style.display = index7 > 0 ? 'block' : 'none';
   document.querySelector('.button7.next').style.display = index7 < maxIndex7 ? 'block' : 'none';
 }
