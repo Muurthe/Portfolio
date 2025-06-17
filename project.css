@@ -7,7 +7,7 @@
   align-items: start;
   gap: 2rem;
   min-height: 60vh;
-  padding-bottom: 3rem ;
+  padding-bottom: 5rem ;
 }
 
 .projectenpagina h2 {
@@ -19,22 +19,23 @@
 }
 
 .project-items {
-  display: flex;
-  gap: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5%;
 }
 
 /* Project blok als klikbare link */
 .project-container {
   background-color: white;
-  padding:30px;
+  padding: 1rem;
   border-radius: 6px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
 
 .project-container img {
-  width: 200px;
-  height: 150px;
-  border-radius: 6px;
+  width: 340px;
+  height: auto;
+  /* border-radius: 6px; */
 }
 
 .projectnaam {
@@ -50,6 +51,8 @@
 .project-container p {
   color: black;
   margin-bottom: 1.4rem;
+  max-width: 21rem;
+  font-size: 0.8rem;
 }
 
 .project-container a {

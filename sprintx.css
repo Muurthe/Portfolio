@@ -1,0 +1,41 @@
+.tekstblok a {
+    color: #7d9267;
+}
+
+.tekstblok {
+    display: flex;
+    gap: 5%;
+}
+
+.afbeeldingblok img{
+    border-radius: 8px;
+}
+
+.tekstx {
+    max-width: 40rem;
+}
+
+.inspo img {
+    width: 200px;
+}
+
+p {
+    max-width: 45rem;
+}
+
+.schets-afbeelding img {
+    max-width: 30%;
+}
+
+.schetsroom {
+    max-width: 40%;
+}
+
+.afb img {
+    max-width: 30%;
+}
+
+h6 {
+    font-size: 1.3rem;
+    margin-bottom: 0;
+}

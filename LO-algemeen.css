@@ -85,7 +85,7 @@
 h2 {
     margin-bottom: 0.2rem;
     font-family: 'Playfair Display', serif;
-    font-weight: 600;
+    font-weight: bold;
     font-size: 2rem;
 }
 
@@ -101,4 +101,5 @@ h6 {
     font-family: 'Playfair Display', serif;
     margin-top: 4rem;
     margin-bottom: 0.7rem;
+    color: #64664A;
 }

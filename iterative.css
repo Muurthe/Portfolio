@@ -3,12 +3,6 @@
     margin-bottom: 1rem;
 }
 
-h6 {
-    font-size: 1rem;
-    margin-top: 2rem;
-    margin-bottom: 0.3rem
-}
-
 /* portfolio */
 .logo1 {
     max-width: 18rem;
@@ -45,19 +39,11 @@ p {
     margin-top: 0.3rem;
 }
 
-h6 {
-    font-size: 1rem;
-    margin-top: 2rem;
-    margin-bottom: 0.3rem
-}
 .prototype2 {
     display: flex;
     gap: 3rem;
 }
 
-.tekst{
-    max-width: 30rem;
-}
 
 .feedbacksprint1 ul {
     margin-left: 1.5rem;
@@ -68,4 +54,51 @@ h6 {
     width: 20rem;
 } 
 
+/* logo's boris */
+.iter-container1 {
+    display: flex;
+    gap: 8%;
+    margin-bottom: 2rem;
+}
 
+img {
+    border-radius: 8px;
+}
+
+.iter-container2 img{
+    max-width: 40%;
+}
+
+.iter-container2 {
+    display: flex;
+    gap: 4%;
+    margin-bottom: 2rem;
+}
+
+.iter-container3 {
+    display: flex;
+    gap: 4%;
+    margin-bottom: 2rem;
+}
+
+
+.iter-container3 img {
+    height: 90%;
+     width:auto;
+     margin-top: 1rem;
+}
+
+.iter-container4 {
+    display: flex;
+    gap: 4%;
+    margin-bottom: 2rem;
+}
+
+.img1 {
+    height: 30%;
+    width: 57%;
+}
+
+.containerimg7 img{
+    width: 40%;
+}
