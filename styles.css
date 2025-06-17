@@ -151,6 +151,9 @@ footer a {
 .live {
     margin-top: 1.5rem;
 }
+video {
+    border-radius: 9px;
+}
 
 
 /* telefoon */
