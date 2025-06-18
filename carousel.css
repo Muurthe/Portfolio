@@ -633,3 +633,125 @@
     right: -40px;
 }
 
+@media (max-width: 768px) {
+  /* Containers */
+  .container,
+  .container2,
+  .container3,
+  .carouselcontainer {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  /* Algemene carrousel breedtes */
+  .carousel,
+  .carousel2,
+  .carousel3,
+  .carousel4,
+  .carousel5,
+  .carousel6,
+  .carousel7,
+  .carousel8,
+  .carousel9 {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .slideswrapper,
+  .slideswrapper2,
+  .slideswrapper3,
+  .slideswrapper4,
+  .slideswrapper5,
+  .slideswrapper6,
+  .slideswrapper7,
+  .slideswrapper8,
+  .slideswrapper9 {
+    width: 100%;
+  }
+
+  .slides {
+    width: auto;
+  }
+
+  .slide,
+  .slide2,
+  .slide3,
+  .slide4,
+  .slide5,
+  .slide6,
+  .slide7,
+  .slide8,
+  .slide9 {
+    width: 90%; /* Flexibele breedte */
+    margin: 0 auto 1rem auto; /* Centreer en voeg marge toe */
+  }
+
+  .slide img,
+  .slide2 img,
+  .slide3 img,
+  .slide4 img,
+  .slide5 img,
+  .slide6 img,
+  .slide7 img,
+  .slide8 img,
+  .slide9 img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Knoppen dichterbij zetten */
+  .button1.prev, .button2.prev, .button3.prev, .button4.prev, .button5.prev, 
+  .button6.prev, .button7.prev, .button8.prev, .button9.prev {
+    left: 10px;
+  }
+
+  .button1.next, .button2.next, .button3.next, .button4.next, .button5.next, 
+  .button6.next, .button7.next, .button8.next, .button9.next {
+    right: 10px;
+  }
+
+  /* Verklein knopgrootte */
+  .button1, .button2, .button3, .button4, .button5, .button6, .button7, .button8, .button9 {
+    font-size: 18px;
+    padding: 6px 10px;
+  }
+
+  /* Slide7/8/9 flex aanpassen */
+  .slide7, .slide8, .slide9 {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .slide7 img,
+  .slide8 img,
+  .slide9 img {
+    width: 100%;
+  }
+
+  .tekst {
+    flex-direction: column;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Knoppen nog kleiner */
+  .button1, .button2, .button3, .button4, .button5, .button6, .button7, .button8, .button9 {
+    font-size: 16px;
+    padding: 4px 8px;
+  }
+
+  .slide,
+  .slide2,
+  .slide3,
+  .slide4,
+  .slide5,
+  .slide6,
+  .slide7,
+  .slide8,
+  .slide9 {
+    width: 100%;
+  }
+}

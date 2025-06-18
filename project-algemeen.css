@@ -72,3 +72,70 @@ h5 {
 p {
     font-size: 1.2rem;
 }
+
+@media (max-width: 768px) {
+  .head {
+    flex-direction: column; /* Stapel tekst en afbeelding */
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .head h1 {
+    font-size: 2rem; /* Iets kleiner */
+  }
+
+  .head img {
+    max-width: 50%; /* Grotere afbeelding in verhouding */
+    margin-right: 0;
+  }
+
+  .grid {
+    grid-template-columns: 1fr; /* Eén kolom */
+  }
+
+  .grid h4 {
+    font-size: 1.4rem;
+  }
+
+  .grid p {
+    font-size: 1rem;
+  }
+
+  h3 {
+    font-size: 1.6rem;
+    margin-top: 3rem;
+  }
+
+  h5 {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .head h1 {
+    font-size: 1.7rem;
+  }
+
+  .head img {
+    max-width: 70%;
+  }
+
+  h3 {
+    font-size: 1.4rem;
+  }
+
+  h5 {
+    font-size: 1.1rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+}

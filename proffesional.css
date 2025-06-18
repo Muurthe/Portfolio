@@ -54,3 +54,56 @@
     margin-left: 1.5rem;
     max-width: 45rem;
 }
+
+@media (max-width: 768px) {
+  #bewijs1 img {
+    width: 100%; /* Laat afbeelding de breedte benutten */
+    max-width: 25rem; /* Behoud limiet op grotere schermen */
+  }
+
+  #bewijs2 img {
+    height: auto; /* Laat hoogte automatisch schalen */
+    width: 100%;
+    max-width: 20rem;
+  }
+
+  .afbeeldingengrid img,
+  .samenvattingInterview img {
+    width: 100%;
+    height: auto;
+  }
+
+  #bewijs1 ul,
+  #bewijs5 ul {
+    margin-left: 1rem;
+    max-width: 100%;
+  }
+
+  #bewijs5 ul {
+    font-size: 1rem;
+  }
+
+  .reflectietrello h6 {
+    font-size: 1.1rem;
+  }
+
+  .samenvattingInterview h6 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #bewijs1 img,
+  #bewijs2 img {
+    max-width: 100%;
+  }
+
+  #bewijs5 ul {
+    font-size: 0.95rem;
+    margin-left: 0.8rem;
+  }
+
+  .reflectietrello h6 {
+    font-size: 1rem;
+  }
+}

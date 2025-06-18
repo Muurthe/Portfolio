@@ -109,3 +109,70 @@
     font-size: 1.2rem;
     font-weight: normal;
 }
+
+@media (max-width: 768px) {
+  .wieboris {
+    flex-direction: column; /* Stapel tekst en afbeelding onder elkaar */
+    margin-right: 1rem;
+  }
+
+  .wieboris img {
+    max-width: 80%; /* Laat afbeelding groter en breder zien */
+    max-height: auto;
+    margin: 1rem auto 0 auto; /* Centreer de afbeelding */
+  }
+
+  .wieboris p {
+    max-width: 100%; /* Volledige breedte voor tekst */
+  }
+
+  .doelenresultaten {
+    flex-direction: column; /* Doelen en resultaten onder elkaar */
+    gap: 1rem;
+  }
+
+  .doelen {
+    min-width: 100%; /* Volledige breedte */
+    font-size: 1rem;
+  }
+
+  .uxgrid {
+    grid-template-columns: 1fr; /* Eén kolom */
+    max-width: 100%;
+  }
+
+  .uxgrid li {
+    font-size: 1rem;
+  }
+
+  .Eindfeedback p {
+    max-width: 100%; /* Laat tekst breder uitlopen */
+    font-size: 1rem;
+  }
+
+  .Eindfeedback h6 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .wieboris img {
+    max-width: 100%;
+  }
+
+  .doelen {
+    font-size: 0.95rem;
+  }
+
+  .uxgrid li {
+    font-size: 0.95rem;
+  }
+
+  .Eindfeedback p {
+    font-size: 0.95rem;
+  }
+
+  .Eindfeedback h6 {
+    font-size: 0.95rem;
+  }
+}

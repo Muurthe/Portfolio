@@ -162,6 +162,7 @@ video {
     header {
         margin-bottom: 2rem;
     }
+    
 
     header h1,
     .voornaam,
@@ -203,4 +204,17 @@ video {
     .footer-column li a {
         font-size: 0.8rem;
     }
+}
+
+.orig {
+    justify-content: start;
+    align-items:start;
+}
+.orig img {
+    width: 33%;
+    height: auto;
+}
+
+.verandering img {
+    width: 33%;
 }

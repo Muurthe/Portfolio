@@ -39,3 +39,40 @@ h6 {
     font-size: 1.3rem;
     margin-bottom: 0;
 }
+
+@media (max-width: 768px) {
+  .tekstblok {
+    flex-direction: column;  /* Stapel tekst en afbeelding */
+    gap: 1.5rem;
+  }
+
+  .tekstx,
+  p {
+    max-width: 100%; /* Laat tekst volledig de breedte benutten */
+  }
+
+  .schets-afbeelding img,
+  .schetsroom,
+  .afb img {
+    max-width: 100%; /* Afbeeldingen passen zich aan de schermbreedte aan */
+  }
+
+  .inspo img {
+    width: 100%; /* Inspo-afbeelding groter op mobiel */
+    max-width: 300px; /* Eventueel een limiet */
+  }
+
+  h6 {
+    font-size: 1.1rem; /* Iets kleiner kopje op mobiel */
+  }
+}
+
+@media (max-width: 480px) {
+  h6 {
+    font-size: 1rem;
+  }
+
+  .inspo img {
+    max-width: 100%;
+  }
+}
