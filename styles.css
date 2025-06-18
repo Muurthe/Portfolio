@@ -204,3 +204,16 @@ video {
         font-size: 0.8rem;
     }
 }
+
+.orig {
+    justify-content: start;
+    align-items:start;
+}
+.orig img {
+    width: 33%;
+    height: auto;
+}
+
+.verandering img {
+    width: 33%;
+}
