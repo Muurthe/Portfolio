@@ -66,3 +66,40 @@
   }
   
 
+@media (max-width: 768px) {
+  .leeruikomstenpagina {
+    padding-left: 1rem; /* Minder padding aan de linkerzijde */
+    padding-right: 1rem; /* Voeg rechter padding toe voor symmetrie */
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    margin: 2rem auto; /* Iets minder margin boven/onder */
+  }
+
+  .leeruikomstenpagina h2 {
+    font-size: 1.4rem; /* Iets kleiner kopje */
+  }
+
+  .leeruikomstenpagina a {
+    font-size: 1rem; /* Iets kleinere linktekst */
+  }
+
+  .leeruikomstenpagina li {
+    padding: 1rem; /* Minder padding binnenin de items */
+    padding-left: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .leeruikomstenpagina h2 {
+    font-size: 1.2rem;
+  }
+
+  .leeruikomstenpagina a {
+    font-size: 0.95rem;
+  }
+
+  .leeruikomstenpagina li {
+    padding: 0.8rem;
+    padding-left: 1.2rem;
+  }
+}
