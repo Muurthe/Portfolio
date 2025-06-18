@@ -102,3 +102,55 @@ img {
 .containerimg7 img{
     width: 40%;
 }
+
+@media (max-width: 768px) {
+  /* Flex containers stapelen */
+  .containerimg,
+  .containerimg2,
+  .containerimg3,
+  .prototypecog,
+  .prototype2,
+  .iter-container1,
+  .iter-container2,
+  .iter-container3,
+  .iter-container4 {
+    flex-direction: column;
+    gap: 1rem; /* Minder grote gap op mobiel */
+  }
+
+  .prototypecog {
+    margin-right: 0; /* Verwijder marge die teveel ruimte inneemt */
+  }
+
+  .prototypecog img,
+  .containerimg7 img,
+  .iter-container2 img,
+  .iter-container3 img,
+  .img1,
+  .logo1 {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin: 0 auto; /* Centreer indien nodig */
+  }
+
+  .feedbacksprint1 ul,
+  .conclusie ul {
+    margin-left: 1rem;
+  }
+
+  p {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .feedbacksprint1 ul,
+  .conclusie ul {
+    margin-left: 0.8rem;
+  }
+
+  .prototypecog img {
+    width: 100%;
+  }
+}

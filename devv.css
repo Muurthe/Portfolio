@@ -26,3 +26,36 @@
 .eind video {
     border-radius: 8px;
 }
+
+@media (max-width: 768px) {
+  .coderendev ul,
+  .ai ul {
+    margin-left: 1rem; /* Iets kleinere inspringing */
+  }
+
+  .link {
+    margin-top: 0.5rem;
+    margin-bottom: 0.7rem;
+  }
+
+  .live {
+    margin-top: 1rem;
+  }
+
+  .eind video {
+    max-width: 100%; /* Zorg dat video zich aanpast aan het scherm */
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .coderendev ul,
+  .ai ul {
+    margin-left: 0.8rem;
+  }
+
+  .link {
+    margin-top: 0.4rem;
+    margin-bottom: 0.6rem;
+  }
+}

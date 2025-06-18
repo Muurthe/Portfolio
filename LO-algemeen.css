@@ -103,3 +103,69 @@ h6 {
     margin-bottom: 0.7rem;
     color: #64664A;
 }
+
+@media (max-width: 768px) {
+  .leeruitkomst-container {
+    padding-bottom: 4rem; /* Iets minder ruimte onderaan */
+    width: 95%;
+  }
+
+  .head {
+    padding: 1rem;
+  }
+
+  .head h1 {
+    font-size: 2rem; /* Maak titel kleiner op mobiel */
+  }
+
+  .omschrijving p {
+    font-size: 1.1rem;
+    max-width: 100%; /* Laat tekst breder uitlopen */
+  }
+
+  .content > div {
+    padding: 1rem;
+  }
+
+  .Leernav {
+    gap: 0.5rem;
+  }
+
+  .Leernav a {
+    margin-right: 0.5rem;
+    padding: 0.3rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  p {
+    font-size: 1rem;
+    max-width: 100%;
+  }
+
+  h6 {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .head h1 {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  h6 {
+    font-size: 1.1rem;
+  }
+
+  .Leernav a {
+    font-size: 0.9rem;
+    padding: 0.2rem 0.3rem;
+  }
+}

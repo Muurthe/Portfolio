@@ -45,3 +45,44 @@
 #bewijs4 img {
     border-radius: 6px;
 }
+
+@media (max-width: 768px) {
+  .resultaten img {
+    width: 100%; /* Laat de afbeelding meeschalen met de breedte */
+    max-width: 30rem; /* Behoud limiet als scherm breed genoeg is */
+  }
+
+  .artist {
+    flex-direction: column; /* Stapel op mobiel */
+    gap: 2rem;
+    padding-right: 0; /* Geen overbodige padding rechts */
+  }
+
+  .reflectietest ul,
+  #bewijs1 ul {
+    margin-left: 1rem; /* Minder inspringing */
+  }
+
+  #bewijs1 h6 {
+    font-size: 0.9rem;
+  }
+
+  .reflectietest p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .resultaten img {
+    max-width: 100%; /* Volledige breedte benutten */
+  }
+
+  #bewijs1 h6 {
+    font-size: 0.85rem;
+  }
+
+  .reflectietest ul,
+  #bewijs1 ul {
+    margin-left: 0.8rem;
+  }
+}

@@ -58,3 +58,59 @@
 .Opleverversie video {
     border-radius: 8px;
 }
+
+@media (max-width: 768px) {
+  .prototypecog,
+  .prototype2 {
+    flex-direction: column; /* Stapel de inhoud onder elkaar */
+    gap: 1.5rem; /* Minder gap */
+    margin-right: 0; /* Verwijder vaste marge rechts */
+  }
+
+  .prototypecog img {
+    width: 100%; /* Laat de afbeelding de breedte benutten */
+    max-width: 20rem; /* Behoud een limiet als je wilt */
+    margin: 0 auto; /* Centreer de afbeelding */
+  }
+
+  .tekst {
+    max-width: 100%; /* Laat tekst meeschalen */
+  }
+
+  .feedbacksprint1 ul,
+  .conclusie ul {
+    margin-left: 1rem;
+  }
+
+  .container3 h6 {
+    margin-left: 0.5rem;
+  }
+
+  .link {
+    margin-top: 0.7rem;
+  }
+
+  .live {
+    margin-top: 1rem;
+  }
+
+  .Opleverversie video {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .prototypecog img {
+    max-width: 100%;
+  }
+
+  .container3 h6 {
+    font-size: 1rem;
+  }
+
+  .feedbacksprint1 ul,
+  .conclusie ul {
+    margin-left: 0.8rem;
+  }
+}
