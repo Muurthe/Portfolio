@@ -40,3 +40,42 @@
 p {
     max-width: 45rem;
 }
+
+@media (max-width: 768px) {
+  .uitlegslides {
+    flex-direction: column; /* Zet slides onder elkaar */
+    padding: 1rem 1.5rem; /* Minder brede padding */
+    gap: 1rem;
+  }
+
+  p {
+    max-width: 100%; /* Laat tekst lekker breed meelopen */
+  }
+
+  .feedbackux1 ul {
+    max-width: 100%;
+    margin-left: 1rem;
+  }
+
+  .coderendev ul {
+    margin-left: 1rem;
+  }
+
+  .coderendev h6 {
+    font-size: 0.95rem;
+  }
+
+  .live {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .uitlegslides {
+    padding: 1rem;
+  }
+
+  .coderendev h6 {
+    font-size: 0.9rem;
+  }
+}
