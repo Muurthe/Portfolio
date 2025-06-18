@@ -69,6 +69,50 @@
   font-size: 0.9rem;
   
 }
+
 .project-container a:hover {
   background-color: #9e653f;
+}
+
+@media (max-width: 768px) {
+  .project-items {
+    grid-template-columns: 1fr; /* Stapel de projecten onder elkaar */
+    gap: 1.5rem; /* Iets minder ruimte tussen de projecten */
+  }
+
+  .project-container img {
+    width: 100%; /* Laat de afbeelding mooi mee schalen */
+    height: auto;
+  }
+
+  .projectnaam {
+    font-size: 1.5rem; /* Iets kleinere titel op mobiel */
+  }
+
+  .project-container p {
+    font-size: 0.85rem;
+  }
+
+  .project-container a {
+    font-size: 0.85rem;
+    padding: 0.6rem 1rem;
+  }
+
+  .projectenpagina {
+    padding: 0 1rem 3rem 1rem; /* Voeg padding toe aan zijkanten */
+  }
+}
+
+@media (max-width: 480px) {
+  .projectnaam {
+    font-size: 1.3rem;
+  }
+
+  .project-container p {
+    font-size: 0.75rem;
+  }
+
+  .project-container a {
+    font-size: 0.8rem;
+  }
 }
