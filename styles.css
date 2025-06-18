@@ -52,7 +52,7 @@ header h1 {
     font-size: 3.8rem;
     font-weight: bold;
     font-family: 'Playfair Display', serif;
-    
+
 }
 
 nav {
@@ -91,7 +91,7 @@ footer {
     padding: 2rem;
     background-image: url('images/Achtergrond/footerplant.png');
     background-size: cover;
-    background-position: right ;
+    background-position: right;
     background-repeat: no-repeat;
     background-size: 15%;
 }
@@ -153,6 +153,7 @@ footer a {
 .live {
     margin-top: 1.5rem;
 }
+
 video {
     border-radius: 9px;
 }
@@ -164,7 +165,7 @@ video {
     header {
         margin-bottom: 2rem;
     }
-    
+
 
     header h1,
     .voornaam,
@@ -210,8 +211,9 @@ video {
 
 .orig {
     justify-content: start;
-    align-items:start;
+    align-items: start;
 }
+
 .orig img {
     width: 33%;
     height: auto;
@@ -219,4 +221,21 @@ video {
 
 .verandering img {
     width: 33%;
+}
+
+.linkblender {
+    margin-bottom: 2rem;
+}
+
+.linkthree {
+    margin-bottom: 4rem;
+}
+.dikg {
+    font-weight: bold;
+}
+.three {
+    margin-left: 1.2rem;
+}
+.three li {
+    font-size: 1.2rem;
 }
