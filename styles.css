@@ -43,13 +43,15 @@ header h1 {
 }
 
 .voornaam {
-    font-size: 4rem;
-    font-family: 'Playfair Display', serif;
-    font-weight: bolder;
+    font-size: 3rem;
+    font-family: 'tanfont';
+    font-weight: normal;
 }
 
 .achternaam {
-    font-size: 3rem;
+    font-size: 3.8rem;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
     
 }
 
