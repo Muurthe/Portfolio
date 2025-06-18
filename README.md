@@ -30,9 +30,7 @@ Tijdens het maken van deze website heb ik veel geleerd over hoe je design en cod
 ---
 
 ## Let op  
-De live versie van **Project X** is op dit moment mogelijk tijdelijk niet beschikbaar. Ik werk er hard aan om deze zo snel mogelijk online te zetten. De verwachting is dat dit uiterlijk vrijdag 18-6-2025 opgelost is.  
-
-De code van Project X in de repository is functioneel en getest in een lokale omgeving. Deze kun je zien in de video's.  
+De website is niet 100% mobile vriendelijk gemaakt. Door tijdsgebrek werkt het deels op mobile. Alle carrousels met afbeeldingen werken niet goed.
 
 ---
 
