@@ -3,7 +3,7 @@
 ## Beschrijving  
 Dit is mijn portfolio website van semester 2. Ik heb deze website gemaakt om mijn vaardigheden in webontwikkeling te tonen en mijn werk uit dit semester te presenteren. Hier kun je mijn projecten en bewijzen van leeruitkomsten bekijken. Door mijn bewijslast in een interactieve website te verwerken, wordt het een leukere en meer toegankelijke manier om mijn verslag te lezen.  
 
-Tijdens het maken van deze website heb ik veel geleerd over hoe je design en code combineert om een duidelijk en gebruiksvriendelijk resultaat neer te zetten. Ik ben vooral trots op hoe ik interactieve onderdelen, zoals de navigatie en de carrousels, heb gebouwd.  
+Tijdens het maken van deze website heb ik veel geleerd over hoe je design en code combineert om een duidelijk en gebruiksvriendelijk resultaat neer te zetten.  
 
 ---
 
