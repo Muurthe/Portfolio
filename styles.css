@@ -43,12 +43,14 @@ header h1 {
 }
 
 .voornaam {
-    font-family: 'tanfont';
-    font-size: 3rem;
+    font-size: 4rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
 }
 
 .achternaam {
-    font-size: 3.6rem;
+    font-size: 3rem;
+    
 }
 
 nav {
@@ -148,6 +150,9 @@ footer a {
 
 .live {
     margin-top: 1.5rem;
+}
+video {
+    border-radius: 9px;
 }
 
 
